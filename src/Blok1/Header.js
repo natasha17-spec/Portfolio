@@ -7,7 +7,6 @@ function Header() {
         <div className={styles.header}>
             <div className={styles.container}>
                 <NavMenu/>
-
             </div>
         </div>
     )
