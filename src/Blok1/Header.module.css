@@ -1,0 +1,15 @@
+.header {
+  height: 70px;
+  background-color: #b4defd;
+  display: flex;
+  justify-content: center;
+
+}
+.container {
+  border: 1px solid;
+  width: 80%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+}

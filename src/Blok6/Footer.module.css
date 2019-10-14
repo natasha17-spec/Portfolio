@@ -1,0 +1,42 @@
+.skill {
+  min-height: 50vh;
+  background-color: #d5f496;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+/*.img {*/
+/*  width: 20px;*/
+/*  height: 20px;*/
+/*  margin: 1px;*/
+/*}*/
+.container {
+  border: 1px solid;
+  width: 80%;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+}
+.title {
+  text-align: center;
+}
+.socialContainer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid black;
+  height: 35%;
+  width: 70%;
+  padding: 1%;
+}
+.socialIcons{
+  background-color: #e2e2e2;
+  width: 12%;
+  height: 80%;
+}
+
+
+

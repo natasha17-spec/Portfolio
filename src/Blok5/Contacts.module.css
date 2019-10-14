@@ -1,0 +1,61 @@
+
+.skill {
+    min-height: 100vh;
+    background-color: #a9f495;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteiner {
+    border: 1px solid;
+    width: 80%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.conteiner .form {
+    display: flex;
+    flex-direction: column;
+  justify-content: space-around;
+    }
+
+.btn {
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 0px 0px 10px 0px;
+
+}
+@media(max-width: 620px) {
+    .conteiner .form {
+        justify-content: center;
+    }
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 100%;
+}
+
+.form input{
+    width: 100%;
+    margin-bottom: 1%;
+    height: 3vh;
+}
+.form textarea{
+    height: 80%;
+    width: 100%;
+
+}
+

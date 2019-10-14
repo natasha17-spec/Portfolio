@@ -1,0 +1,25 @@
+import React from 'react';
+import styles from './Projects.module.css';
+import Project from "./Project";
+import Project2 from "./Project2";
+
+
+
+function Projects() {
+    return (
+        <div className={styles.skills}>
+            <div className={styles.wrapper}>
+                <div className={styles.title}>
+                    <span> Мои работы </span>
+                </div>
+                <div className={styles.skillsWraper}>
+                    <Project2/>
+                    <Project/>
+            </div>
+
+            </div>
+        </div>
+    );
+}
+
+export default Projects;
