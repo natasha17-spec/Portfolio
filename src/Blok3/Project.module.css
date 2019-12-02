@@ -25,11 +25,12 @@
     background-color: #555;
     color: white;
     font-size: 16px;
-    padding: 12px 24px;
+    padding: 3% 3%;
     border: none;
     cursor: pointer;
     border-radius: 5px;
-
+    margin: 10px 0px 10px 0px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
 .icon.btn:hover {

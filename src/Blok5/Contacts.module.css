@@ -22,23 +22,25 @@
     flex-direction: column;
   justify-content: space-around;
     }
-
-.btn {
-    background-color: #555;
-    color: white;
-    font-size: 16px;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-    margin: 0px 0px 10px 0px;
-
-}
 @media(max-width: 620px) {
     .conteiner .form {
         justify-content: center;
     }
 }
+
+.btn {
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 2% 2%;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 10px 0px 10px 0px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+
+}
+
 .form{
     display: flex;
     flex-direction: column;
@@ -56,6 +58,7 @@
 .form textarea{
     height: 80%;
     width: 100%;
-
 }
-
+.text_contact {
+    font-family: "Bookman Old Style";
+}
