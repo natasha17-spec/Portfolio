@@ -12,4 +12,9 @@
   background-color: #c9d6d6;
 }
 
+@media(max-width: 952px) {
+  .skill {
+    width: 90%;
 
+  }
+}

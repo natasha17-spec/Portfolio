@@ -6,10 +6,10 @@
 }
 .link{
   text-decoration: none;
-  font-size: 80%;
+  font-size: 16px;
 }
-@media(max-width: 257px) {
-  link {
-    font-size: 60%;
+@media(max-width: 311px) {
+  .link {
+    font-size: 14px;
   }
 }
