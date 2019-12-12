@@ -8,26 +8,30 @@
     padding: 6px 3px 6px 3px;
 }
 .wrapper {
-   /*border: 1px solid;*/
    width: 80%;
    height: 70%;
   display: flex;
   justify-content: center;
     flex-direction: column;
  }
+.icon {
+    width: 80px;
+    height: 80px;
+    margin: 1% 1% 16% 34%;
+   }
 
 
 .title span {
-  /*border: 1px solid;*/
+ font-family: 'Alice', serif;
   width: 100%;
   height: 25%;
   justify-content: center;
   align-items: center;
   display: flex;
   padding: 10px 30px;
-  font-family: 'Lato', sans-serif;
-  font-size: 16px;
+  font-size: 22px;
    box-sizing: border-box;
+    margin: 1px 1px 10px 1px;
 }
 .skillsWrapper {
     display: flex;
@@ -38,6 +42,7 @@
 .paddings_one{
     padding: 3px;
 }
+
 @media(max-width: 643px) {
     .skillsWrapper {
         display: flex;
@@ -46,15 +51,4 @@
         align-items: center;
     }
 }
-.title span:before{
-    content: "";
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: -5px;
-    height: 15px;
-    width: 100%;
-    z-index: -4;
-    background: #ea548d;
 
-}

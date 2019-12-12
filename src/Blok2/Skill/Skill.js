@@ -2,17 +2,16 @@ import React from 'react';
 import styles from './Skill.module.css';
 
 
-function Skill() {
-    return (
-        <div className={styles.skill}>
-            <div className={styles.icon}>
-                <img src="" alt=""/>
+class Skill extends React.Component {
+    render = () => {
+        return (
+            <div className={styles.skill}>
+                <span className={styles.title}>{this.props.title}</span>
+                <span className={styles.description}>{this.props.description}</span>
             </div>
-            <span className={styles.title}>React</span>
-            <span className={styles.description}> Описание скила</span>
-        </div>
 
-    );
+        );
+    }
 }
 
 export default Skill;

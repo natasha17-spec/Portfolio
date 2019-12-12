@@ -1,5 +1,5 @@
 .skill {
-  background-color: #ffffff;
+  background-color: #252527;
   width: 250px;
   height: 350px;
   display: flex;
@@ -8,10 +8,25 @@
   padding-top: 4px;
 }
 .icon {
-  width: 80px;
-  height: 80px;
-  background-color: #c9d6d6;
+     width: 80px;
+     height: 80px;
+   }
+
+
+.title {
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Alice', serif;
+  color: rgba(31, 31, 32, 0.09);
+  font-size: 20px;
+  color: white;
 
 }
-
-
+.description{
+  margin: 10px;
+  font-weight: bold;
+  font-family: 'Alice', serif;
+  text-align: justify;
+  word-wrap:inherit;
+  color: #b2b2b5;
+}
