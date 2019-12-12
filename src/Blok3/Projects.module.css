@@ -1,13 +1,13 @@
 
 .skills {
     min-height: 100vh;
-    background-color: #ffdffd;
+    background-color: #252527;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 .wrapper {
-    border: 1px solid;
+    /*border: 1px solid;*/
     width: 80%;
     height: 70%;
     display: flex;
@@ -16,14 +16,14 @@
     margin: 100px;
 }
 .title {
-    border: 1px solid;
+    /*border: 1px solid;*/
     width: 100%;
     height: 25%;
     justify-content: center;
     align-items: center;
     display: flex;
     padding: 10px 30px;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Exo 2', sans-serif;
     font-size: 16px;
     box-sizing: border-box;
 }

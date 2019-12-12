@@ -1,20 +1,21 @@
 
 .skill {
     min-height: 100vh;
-    background-color: #a9f495;
+    background-color: #252527;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .conteiner {
-    border: 1px solid;
+    /*border: 1px solid;*/
     width: 80%;
     height: 70vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    font-family: 'Exo 2', sans-serif;
 }
 
 .conteiner .form {

@@ -1,12 +1,12 @@
 .main {
   height:100vh;
-  background-color: #ffe4f3;
+  background-color: #252527;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .container {
-  border: 1px solid;
+  /*border: 1px solid rgba(0,0,0,0.3);*/
   width: 80%;
   height: 70%;
   display: flex;
@@ -14,13 +14,77 @@
   align-items: center;
   flex-wrap: wrap;
   }
-.greeteng {
+.greeting {
   display: flex;
   flex-direction: column;
-
+    color: white;
 }
+.greeting span:first-child {
+    font-weight: 300;
+    font-size: 12px;
+    font-family: 'Alice', serif;
+}
+.greeting span:nth-child(2),
+.greeting span:nth-child(2) span{
+    font-weight: 700;
+    font-stretch: normal;
+    font-size: 22px;
+    line-height: 1.2;
+    font-family: 'Alice', serif;
+    position: relative;
+    z-index: 0;
+}
+h1 {
+font-size: 14px;
+font-family: 'Open Sans Condensed', sans-serif;;
+}
+@media screen and (max-width: 439px){
+    greeting span:nth-child(2),
+    .greeting span:nth-child(2) span{
+        font-weight: 700;
+        font-stretch: normal;
+        font-size: 22px;
+        line-height: 1.2;
+        font-family: 'Alice', serif;
+        position: relative;
+        z-index: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+}}
+
+
 .photo {
 height: 300px;
  width: 250px;
   background-color: #dcd7f4;
 }
+.photo div {
+    height: 300px;
+    width: 250px;
+    background-image:url("cats.jpg")
+}
+.greeting span:nth-child(2) span:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -5px;
+    height: 15px;
+    width: 100%;
+    z-index: -4;
+    background: #ea548d;
+}
+@media screen and (max-width:439px){
+    .greeting span:nth-child(2) span:before {
+        content: "";
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: -5px;
+        height: 15px;
+        width: 100%;
+        z-index: -4;
+        background: #ea548d;
+}}

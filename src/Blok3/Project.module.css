@@ -18,10 +18,8 @@
 
 .btn {
     display: flex;
-
     justify-content: center;
     align-items: center;
-
     background-color: #555;
     color: white;
     font-size: 16px;
@@ -31,8 +29,13 @@
     border-radius: 5px;
     margin: 10px 0px 10px 0px;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    font-family: 'Exo 2', sans-serif;
 }
 
 .icon.btn:hover {
     background-color: black;
+}
+.title{
+    font-family: 'Exo 2', sans-serif;
+    color: #555555;
 }

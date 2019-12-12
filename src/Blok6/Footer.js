@@ -13,7 +13,7 @@ import styles from './Footer.module.css';
                     </div>
                     <span className={styles.title}>Контакты</span>
                       <img src="" alt=""/>
-                    <span className={styles.title}>©2019 Все права защищены</span>
+                    <span className={styles.prava}>©2019 Все права защищены</span>
                 </div>
             </div>
 

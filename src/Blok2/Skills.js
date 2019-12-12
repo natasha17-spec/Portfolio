@@ -10,10 +10,16 @@ function Skills() {
                 <div className={styles.title}>
                     <span> Мои скиллы </span>
                 </div>
-                <div className={styles.skillsWraper}>
-                    <Skill/>
-                    <Skill/>
-                    <Skill/>
+                <div className={styles.skillsWrapper}>
+                    <div className={styles.paddings_one}>
+                        <Skill/>
+                    </div>
+                    <div className={styles.paddings_one}>
+                        <Skill/>
+                    </div>
+                    <div className={styles.paddings_one}>
+                        <Skill/>
+                    </div>
                 </div>
             </div>
         </div>
