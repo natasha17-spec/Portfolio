@@ -20,14 +20,14 @@
 }
 .greeting span:first-child {
     font-weight: 300;
-    font-size: 12px;
+    font-size: 25px;
     font-family: 'Alice', serif;
 }
 .greeting span:nth-child(2),
 .greeting span:nth-child(2) span{
     font-weight: 700;
     font-stretch: normal;
-    font-size: 22px;
+    font-size: 28px;
     line-height: 1.2;
     font-family: 'Alice', serif;
     position: relative;
@@ -45,7 +45,7 @@ height: 300px;
 .photo div {
     height: 300px;
     width: 250px;
-    background-image:url("cats.jpg")
+    background-image:url("samurai.png")
 }
 .greeting span:nth-child(2) span:before {
     content: "";

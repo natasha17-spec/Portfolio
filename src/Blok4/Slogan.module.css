@@ -10,7 +10,7 @@
 .conteiner {
   /*border: 1px solid;*/
   width: 80%;
-  height: 100px;
+  height: 80px;
  display: flex;
   flex-direction: column;
 align-items: center;
@@ -19,17 +19,21 @@ align-items: center;
 }
 .title {
   text-align: center;
-
+  margin: 1px 1px 40px 1px;
+  font-family: 'Alice', serif;
+  font-size: 20px;
 }
 @media(max-width: 620px) {
   .skillsWraper {
     justify-content: center;
+    align-items: center;
   }
 }
 .btn {
   background-color: #555;
+  font-family: 'Alice', serif;
   color: white;
-  font-size: 16px;
+  font-size: 18px;
   padding: 2% 2%;
   border: none;
   cursor: pointer;

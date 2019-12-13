@@ -11,8 +11,7 @@
 /*  margin: 1px;*/
 /*}*/
 .container {
-  /*border : 1px solid;*/
-  width: 80%;
+   width: 80%;
   height: 30vh;
   display: flex;
   flex-direction: column;
@@ -25,37 +24,40 @@
 }
 .socialContainer{
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   border: 1px solid black;
   height: 35%;
   width: 70%;
   padding: 1%;
+
 }
 .socialIcons{
-  background-color: #e2e2e2;
-  width: 70px;
-  height: 70px;
-}
-@media screen and (max-width: 682px) {
-  .socialIcons{
-  width: 60px;
-  height: 60px;
-}}
-@media screen and (max-width: 494px) {
-  .socialIcons{
+  background-color: #252527;
   width: 50px;
   height: 50px;
-}}
-@media screen and (max-width: 494px) {
+  margin: 1px 20px 1px 1px;
+
+}
+@media screen and (max-width: 682px) {
   .socialIcons{
   width: 40px;
   height: 40px;
 }}
-@media screen and (max-width: 322px) {
+@media screen and (max-width: 494px) {
   .socialIcons{
   width: 30px;
   height: 30px;
+}}
+@media screen and (max-width: 494px) {
+  .socialIcons{
+  width: 20px;
+  height: 20px;
+}}
+@media screen and (max-width: 322px) {
+  .socialIcons{
+  width: 10px;
+  height: 10px;
 }}
 
 .prava {

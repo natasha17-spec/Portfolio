@@ -2,6 +2,7 @@ import React from 'react';
 import styles from './Projects.module.css';
 import Project from "./Project";
 import Project2 from "./Project2";
+import Project3 from "./Project3";
 
 
 
@@ -14,6 +15,7 @@ function Projects() {
                 </div>
                 <div className={styles.skillsWraper}>
                     <Project2/>
+                    <Project3/>
                     <Project/>
             </div>
 

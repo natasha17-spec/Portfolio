@@ -1,19 +1,21 @@
 .skill {
-    background-color: #e2e2e2;
+    background-color: #252527;
     width: 250px;
     height: 350px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 1px 35px 20px 20px;
 }
 .icon {
     width: 250px;
     height: 250px;
-    background-color: #c9d6d6;
+    background-color: #252527;
     display: flex;
     flex-direction: column;
     justify-content:center;
     align-items: center;
+
 }
 
 .btn {
@@ -36,6 +38,17 @@
     background-color: black;
 }
 .title{
-    font-family: 'Exo 2', sans-serif;
+    color: #c3c3c3;
+    font-weight: bold;
+    padding-top: 25px;
+    font-family: 'Alice', serif;
+    font-size: 20px;
+}
+.description {
     color: #555555;
+    font-weight: bold;
+    font-family: 'Alice', serif;
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: center;
 }
