@@ -42,3 +42,8 @@ align-items: center;
   box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
+@media screen and (max-width:780px){
+  .skill{
+    height: 50vh;
+  }
+}
