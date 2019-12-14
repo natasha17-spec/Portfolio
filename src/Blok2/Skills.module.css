@@ -39,8 +39,8 @@
     flex-wrap: wrap;
     padding-top: 3px;
 }
-.paddings_one{
-    padding: 3px;
+.paddings_two{
+    padding: 1px 1px 1px 1px;
 }
 
 @media(max-width: 643px) {
@@ -52,3 +52,8 @@
     }
 }
 
+@media(max-width: 643px) {
+    .paddings_two {
+        padding: 130px 1px 1px 1px;
+    }
+}
