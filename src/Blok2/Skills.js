@@ -12,7 +12,7 @@ class Skills extends React.Component {
             <div className={styles.skills}>
                 <div className={styles.wrapper}>
                     <div className={styles.title}>
-                        <span> Мои скиллы </span>
+                        <span> My skills </span>
                     </div>
                     <div className={styles.skillsWrapper}>
 
@@ -33,7 +33,7 @@ class Skills extends React.Component {
                         </div>
 
 
-                        <div className={styles.paddings_two}>
+                        <div className={styles.paddings_one}>
                             <div className={styles.icon}>
                                 <img src={JS} width="100" height="100" alt='logo react'/>
                             </div>

@@ -5,10 +5,10 @@ function NavMenu() {
     return (
         <div className={styles.navMenu}>
 
-                <a href="" className={styles.link}>Главное</a>
-                <a href="" className={styles.link}>Скиллы</a>
-                <a href="" className={styles.link}>Работа</a>
-                <a href="" className={styles.link}>Контакты</a>
+                <a href="" className={styles.link}>Main</a>
+                <a href="" className={styles.link}>Skills</a>
+                <a href="" className={styles.link}>Job</a>
+                <a href="" className={styles.link}>Contact</a>
         </div>
     );
 }

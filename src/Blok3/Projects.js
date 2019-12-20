@@ -11,7 +11,7 @@ function Projects() {
         <div className={styles.skills}>
             <div className={styles.wrapper}>
                 <div className={styles.title}>
-                    <span> Мои работы </span>
+                    <span> My Project </span>
                 </div>
                 <div className={styles.skillsWraper}>
                     <Project2/>

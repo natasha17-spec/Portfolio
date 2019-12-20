@@ -1,6 +1,6 @@
 
 .skill {
-  min-height: 25vh;
+  min-height: 80vh;
   background-color: #252527;
   display: flex;
   justify-content: center;
@@ -8,8 +8,7 @@
 }
 
 .conteiner {
-  /*border: 1px solid;*/
-  width: 80%;
+   width: 80%;
   height: 80px;
  display: flex;
   flex-direction: column;
@@ -20,8 +19,8 @@ align-items: center;
 .title {
   text-align: center;
   margin: 1px 1px 40px 1px;
-  font-family: 'Alice', serif;
-  font-size: 20px;
+  font-family:Josefin Sans, sans-serif;
+  font-size: 30px;
 }
 @media(max-width: 620px) {
   .skillsWraper {
@@ -33,8 +32,8 @@ align-items: center;
   background-color: #555;
   font-family: 'Alice', serif;
   color: white;
-  font-size: 18px;
-  padding: 2% 2%;
+  font-size: 20px;
+  padding: 4% 4%;
   border: none;
   cursor: pointer;
   border-radius: 5px;

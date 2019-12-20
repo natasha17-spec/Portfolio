@@ -16,6 +16,7 @@
   margin: auto;
   font-size: 16px;
 }
+
 .title {
   text-align: center;
 }
@@ -25,35 +26,32 @@
   align-items: center;
   width: 70%;
   padding: 1%;
-
 }
-.socialIcons{
-  background-color: #252527;
-  width: 50px;
-  height: 50px;
-  margin: 1px 20px 1px 1px;
-
+.socialContainer div:nth-child(1){
+  width: 35px;
+  height: 35px;
+  margin: 1px 5px 1px 1px;
+background-image: url("inst.png");
 }
-@media screen and (max-width: 682px) {
-  .socialIcons{
-  width: 40px;
-  height: 40px;
-}}
-@media screen and (max-width: 494px) {
-  .socialIcons{
-  width: 30px;
-  height: 30px;
-}}
-@media screen and (max-width: 494px) {
-  .socialIcons{
-  width: 20px;
-  height: 20px;
-}}
-@media screen and (max-width: 322px) {
-  .socialIcons{
-  width: 10px;
-  height: 10px;
-}}
+.socialContainer div:nth-child(2){
+  width: 35px;
+  height: 35px;
+  margin: 1px 5px 1px 1px;
+background-image: url("em.png");
+}
+.socialContainer div:nth-child(3){
+  width: 35px;
+  height: 35px;
+  margin: 1px 5px 1px 1px;
+background-image: url("viber.png");
+}
+.socialContainer div:nth-child(4){
+  width: 35px;
+  height: 35px;
+  margin: 1px 5px 1px 1px;
+background-image: url("whatsapp.png");
+}
+
 
 .prava {
   font-size: 10px;

@@ -1,5 +1,5 @@
 .main {
-  height:86vh;
+  height:100vh;
   background-color: #252527;
   display: flex;
   justify-content: center;
@@ -19,34 +19,46 @@
     color: white;
 }
 .greeting span:first-child {
-    font-weight: 300;
+    font-weight: 400;
     font-size: 23px;
-    font-family: 'Alice', serif;
+    font-family:Poppins serif;
+}
+.greeting span:nth-child(2),
+.greeting span:nth-child(3) span{
+    font-weight: 700;
+    font-size: 40px;
+    font-family:Josefin Sans, sans-serif;
+    letter-spacing: 5px;
 }
 .greeting span:nth-child(2),
 .greeting span:nth-child(2) span{
     font-weight: 700;
     font-stretch: normal;
-    font-size: 28px;
+    font-size: 35px;
     line-height: 1.2;
-    font-family: 'Alice', serif;
+    font-family: Josefin Sans, sans-serif;
     position: relative;
     z-index: 0;
+
     }
 
 h1 {
-font-size: 14px;
-font-family: 'Open Sans Condensed', sans-serif;;
+font-size: 20px;
+font-family:Poppins, sans-serif;
+    font-weight: 400;
 }
 .photo {
 height: 300px;
  width: 250px;
   background-color: #dcd7f4;
+    border-radius: 15px;
 }
 .photo div {
+
     height: 300px;
     width: 250px;
     background-image:url("samurai.png")
+
 }
 .greeting span:nth-child(2) span:before {
     content: "";
@@ -59,19 +71,8 @@ height: 300px;
     z-index: -4;
     background: #ea548d;
 }
-@media screen and (max-width:542px){
-    .greeting span:nth-child(2) span:before {
-        content: "";
-        position: absolute;
-        left: 0;
-        right: 0;
-        bottom: -5px;
-        height: 15px;
-        width: 100%;
-        z-index: -4;
-        background: #ea548d;
 
-}}
+
 @media screen and (max-width: 542px){
     greeting span:nth-child(2),
     .greeting span:nth-child(2) span{
@@ -79,29 +80,44 @@ height: 300px;
         font-stretch: normal;
         font-size: 28px;
         line-height: 1.2;
-        font-family: 'Alice', serif;
+        font-family:Josefin Sans, sans-serif;
         position: relative;
         z-index: 0;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        padding: 10px;
     }}
-@media screen and (max-width:353px){
-    .greeting span:nth-child(2) span:before {
-        content: "";
-        position: absolute;
-        left: 0;
-        right: 0;
-        bottom: -5px;
-        height: 15px;
-        width: 58%;
-        z-index: -4;
-        background: #ea548d;
 
-    }}
-@media screen and (max-width:780px){
+
+
+@media screen and (max-width:931px){
     .main{
-        height: 100vh;
+        height: 160vh;
     }
 }
+
+@media screen and (max-width:931px){
+.greeting {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}}
+
+
+@media screen and (max-width:931px){
+    .greeting span:nth-child(2) span:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 0;
+    width: 0;
+    z-index: -4;
+    background: #ea548d;
+}}
+

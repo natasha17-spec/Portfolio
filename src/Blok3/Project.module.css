@@ -1,21 +1,41 @@
 .skill {
-    background-color: #252527;
+    background-color: #e4e4e4;
     width: 250px;
     height: 350px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 1px 20px 60px 1px;
+    border-radius: 15px;
+  }
+
+.skills_1 {
+    background-color: #e4e4e4;
+    width: 250px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px
 }
-.icon {
+.icon_1{
     width: 250px;
     height: 250px;
-    background-color: #252527;
+    background-color: #ffffff;
     display: flex;
     flex-direction: column;
     justify-content:center;
     align-items: center;
-
+    border-radius: 15px;
+}
+.icon {
+    width: 250px;
+    height: 250px;
+    background-color: #555555;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    border-radius: 15px;
 }
 
 .btn {
@@ -31,24 +51,43 @@
     border-radius: 5px;
     margin: 10px 0px 10px 0px;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
-    font-family: 'Exo 2', sans-serif;
+    font-family: Josefin Sans, sans-serif;
 }
 
 .icon.btn:hover {
     background-color: black;
 }
 .title{
-    color: #c3c3c3;
+    color: #6b6b6c;
     font-weight: bold;
     padding-top: 25px;
-    font-family: 'Alice', serif;
+    font-family: Josefin Sans, sans-serif;
+    font-size: 20px;
+}
+.title_1{
+    color: #6b6b6c;
+    font-weight: bold;
+    padding-top: 25px;
+    font-family: Josefin Sans, sans-serif;
     font-size: 20px;
 }
 .description {
     color: #555555;
     font-weight: bold;
-    font-family: 'Alice', serif;
+    font-family: Josefin Sans, sans-serif;
     font-size: 14px;
     margin-top: 10px;
     text-align: center;
 }
+
+@media(max-width: 937px) {
+.skill {
+    background-color: #e4e4e4;
+    width: 250px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    margin: 20px;
+}}

@@ -7,12 +7,12 @@ import viber from './viber.png'
         function Footer() {
             return    <div className={styles.skill}>
                 <div className={styles.container}>
-                    <div>Герасимович Наталия</div>
+                    <div>Herasimovich Natalia</div>
                     <div className={styles.socialContainer}>
-                        <div className={styles.socialIcons}> <img src={inst} alt=""/></div>
-                        <div className={styles.socialIcons}><img src={em} alt=""/></div>
-                        <div className={styles.socialIcons}><img src={what} alt=""/></div>
-                        <div className={styles.socialIcons}><img src={viber} alt=""/></div>
+                        <div className={styles.socialIcons}> </div>
+                        <div className={styles.socialIcons}> </div>
+                        <div className={styles.socialIcons}> </div>
+                        <div className={styles.socialIcons}> </div>
                     </div>
                     <span className={styles.prava}>©2019 Все права защищены</span>
                 </div>

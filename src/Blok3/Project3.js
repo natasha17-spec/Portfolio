@@ -7,8 +7,8 @@ function Project3() {
     return (
         <div className={styles.skill}>
             <div className={styles.icon}>
-                <img src={project} alt="project1"/>
-                <button className={styles.btn}>Смотреть</button>
+                <img src={project} alt="project1" height={200} width={200}/>
+                <button className={styles.btn}>Look</button>
             </div>
             <span className={styles.title}>Project</span>
             <span className={styles.description}>Искусственный интеллект</span>
