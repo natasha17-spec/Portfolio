@@ -1,7 +1,7 @@
 
 .skill {
-  min-height: 80vh;
-  background-color: #252527;
+  min-height: 40vh;
+  background-color: #575758;
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -30,10 +30,10 @@ align-items: center;
 }
 .btn {
   background-color: #555;
-  font-family: 'Alice', serif;
+  font-family: Josefin Sans, sans-serif;
   color: white;
   font-size: 20px;
-  padding: 4% 4%;
+  padding: 2% 4%;
   border: none;
   cursor: pointer;
   border-radius: 5px;

@@ -1,10 +1,32 @@
 .main {
-  height:100vh;
-  background-color: #252527;
+  min-height:100vh;
+  width:100%;
+
   display: flex;
   justify-content: center;
   align-items: center;
+
 }
+
+
+
+.particles {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 3200px;
+    z-index: 0;
+}
+
+
+
+
 .container {
    width: 80%;
   height: 70%;

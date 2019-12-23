@@ -12,7 +12,9 @@ function Project() {
             </div>
             <span className={styles.title_1}>Social_Network</span>
             <span className={styles.description}>Социальная сеть для знакомства и общения</span>
-            </div>
+
+
+        </div>
           );
 }
 

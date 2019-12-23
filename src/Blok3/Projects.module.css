@@ -1,9 +1,10 @@
 .skills {
     min-height: 80vh;
-    background-color: #252527;
+
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 
 }
 .wrapper {

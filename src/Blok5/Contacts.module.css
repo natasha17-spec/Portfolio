@@ -29,11 +29,12 @@
     }
 }
 
-.btn {
+.btn{
     background-color: #555;
+    font-family:Josefin Sans, sans-serif;
     color: white;
-    font-size: 16px;
-    padding: 2% 2%;
+    font-size: 20px;
+    padding: 2% 4%;
     border: none;
     cursor: pointer;
     border-radius: 5px;
