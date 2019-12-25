@@ -1,15 +1,10 @@
 .main {
   min-height:100vh;
   width:100%;
-
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
-
-
-
 .particles {
     position: absolute;
     top: 0;
@@ -21,11 +16,8 @@
     background-repeat: no-repeat;
     width: auto;
     height: 3200px;
-    z-index: 0;
+    z-index: -1;
 }
-
-
-
 
 .container {
    width: 80%;
@@ -42,13 +34,13 @@
 }
 .greeting span:first-child {
     font-weight: 400;
-    font-size: 23px;
+    font-size: 25px;
     font-family:Poppins serif;
 }
 .greeting span:nth-child(2),
 .greeting span:nth-child(3) span{
     font-weight: 700;
-    font-size: 40px;
+    font-size: 30px;
     font-family:Josefin Sans, sans-serif;
     letter-spacing: 5px;
 }
@@ -56,7 +48,7 @@
 .greeting span:nth-child(2) span{
     font-weight: 700;
     font-stretch: normal;
-    font-size: 35px;
+    font-size: 30px;
     line-height: 1.2;
     font-family: Josefin Sans, sans-serif;
     position: relative;
@@ -70,17 +62,17 @@ font-family:Poppins, sans-serif;
     font-weight: 400;
 }
 .photo {
-height: 300px;
- width: 250px;
+height: 350px;
+ width: 300px;
   background-color: #dcd7f4;
     border-radius: 15px;
 }
 .photo div {
 
-    height: 300px;
+    height: 400px;
     width: 250px;
-    background-image:url("samurai.png")
-
+   /* background-image:url("samurai.png");*/
+    border-radius: 15px;
 }
 .greeting span:nth-child(2) span:before {
     content: "";
@@ -116,7 +108,17 @@ height: 300px;
 
 @media screen and (max-width:931px){
     .main{
-        height: 160vh;
+        height: 130vh;
+    }
+}
+@media screen and (max-width:411px){
+    .main{
+        height: 90vh;
+    }
+}
+@media screen and (max-width:360px){
+    .main{
+        height: 130vh;
     }
 }
 
@@ -130,7 +132,7 @@ height: 300px;
 }}
 
 
-@media screen and (max-width:931px){
+@media screen and (max-width:1190px){
     .greeting span:nth-child(2) span:before {
     content: "";
     position: absolute;
@@ -141,5 +143,23 @@ height: 300px;
     width: 0;
     z-index: -4;
     background: #ea548d;
+}}
+@media screen and (max-width:965px){
+.main {
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}}
+@media screen and (max-width:414px){
+.main {
+
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }}
 

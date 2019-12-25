@@ -62,5 +62,16 @@
     width: 100%;
 }
 .text_contact {
-    font-family: "Bookman Old Style";
+    font-family:Josefin Sans, sans-serif;
 }
+@media(max-width: 414px) {
+.form input{
+    width: 150%;
+    margin-bottom: 1%;
+    height: 3vh;
+}}
+@media(max-width: 414px) {
+    .form textarea{
+        height: 100%;
+        width: 150%;
+}}

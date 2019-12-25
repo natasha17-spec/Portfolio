@@ -6,7 +6,7 @@ function Main() {
     const params = {
         particles: {
             number: {
-                value:600
+                value:500
             },
             color: {
                 value: '#fff'
