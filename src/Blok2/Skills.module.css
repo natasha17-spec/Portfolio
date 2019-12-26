@@ -42,48 +42,45 @@
     padding-top: 3px;
 }
 
-@media(max-width: 643px) {
-    .skillsWrapper {
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: center;
-        align-items: center;
-    }
-}
-
-@media(max-width: 1024px) {
-    .skills {
-    height: 80vh;
-    background-color: #181819;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-     padding-top: 70px;
-
-}}
-@media(max-width: 414px) {
-    .skills {
-    min-height: 100vh;
+@media(max-width: 962px) {
+.skills {
+    height: 160vh;
     background-color: #181819;
     display: flex;
     justify-content: center;
     align-items: center;
 
 }}
-@media(max-width: 414px) {
-.wrapper {
-    width: 116%;
-    height: 100%;
+@media(max-width: 645px) {
+.skills {
+    height: 160vh;
+    background-color: #181819;
     display: flex;
     justify-content: center;
-    flex-direction: column;
+    align-items: center;
 }}
-
-@media(max-width: 375px) {
-    .skillsWrapper {
+@media(max-width: 620px) {
+.skills {
+    height: 180vh;
+    background-color: #181819;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}}
+@media(max-width: 620px) {
+.skillsWrapper {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 3px;
+}}
+@media(min-width: 938px) {
+    .skills {
+        height: 140vh;
+        background-color: #181819;
         display: flex;
-        flex-flow: row wrap;
         justify-content: center;
         align-items: center;
-    }
-}
+
+    }}

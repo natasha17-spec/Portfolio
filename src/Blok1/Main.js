@@ -9,7 +9,7 @@ function Main() {
                 value:500
             },
             color: {
-                value: '#fff'
+                value: '#ffffff'
             },
             shape: {
                 type: 'bow',
@@ -41,7 +41,7 @@ function Main() {
                 enable: true,
                 distance: 140,
                 color: '#fff',
-                width: 1
+                width: 1.5
             },
             move: {
                 enable: true,

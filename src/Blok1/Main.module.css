@@ -153,13 +153,37 @@ height: 350px;
     align-items: center;
 
 }}
-@media screen and (max-width:414px){
+@media screen and (max-width:375px){
 .main {
-
+    height:120vh;
     width:100%;
     display: flex;
     justify-content: center;
     align-items: center;
 
 }}
+@media screen and (max-width:320px){
+.main {
+    height:140vh;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+}}
+@media screen and (min-width:1024px){
+.main {
+    height:70vh;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}}
+@media screen and (min-width:768px){
+.main {
+    height:60vh;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}}
