@@ -44,7 +44,7 @@
 
 @media(max-width: 962px) {
 .skills {
-    height: 160vh;
+    height: 200vh;
     background-color: #181819;
     display: flex;
     justify-content: center;
@@ -61,7 +61,7 @@
 }}
 @media(max-width: 620px) {
 .skills {
-    height: 180vh;
+    height: 280vh;
     background-color: #181819;
     display: flex;
     justify-content: space-around;

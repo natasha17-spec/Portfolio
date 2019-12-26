@@ -50,7 +50,7 @@
         align-items: center;
         display: flex;
         padding: 80px 80px;
-        height: 200vh;
+        height: 250vh;
 
     }
 }
@@ -78,7 +78,7 @@
         align-items: center;
         display: flex;
 
-        height: 165vh;
+        height: 200vh;
     }
 }@media(min-width: 938px) {
     .skills {

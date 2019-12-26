@@ -15,10 +15,11 @@
 align-items: center;
   justify-content: space-between;
   margin: auto;
+  margin: auto;
 }
 .title {
   text-align: center;
-  margin: 1px 1px 20px 1px;
+  margin: 1px 1px 3px 1px;
   font-family:Josefin Sans, sans-serif;
   font-size: 30px;
 }

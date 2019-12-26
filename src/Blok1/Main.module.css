@@ -1,5 +1,5 @@
 .main {
-  min-height:100vh;
+  min-height:150vh;
   width:100%;
   display: flex;
   justify-content: center;
@@ -108,7 +108,7 @@ height: 350px;
 
 @media screen and (max-width:931px){
     .main{
-        height: 130vh;
+        height: 150vh;
     }
 }
 @media screen and (max-width:411px){
@@ -181,7 +181,7 @@ height: 350px;
 }}
 @media screen and (min-width:768px){
 .main {
-    height:60vh;
+
     width:100%;
     display: flex;
     justify-content: center;
