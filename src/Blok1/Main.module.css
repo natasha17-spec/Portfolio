@@ -71,7 +71,6 @@ height: 350px;
 
     height: 400px;
     width: 250px;
-   /* background-image:url("samurai.png");*/
     border-radius: 15px;
 }
 .greeting span:nth-child(2) span:before {
