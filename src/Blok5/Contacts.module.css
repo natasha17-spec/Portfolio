@@ -29,7 +29,7 @@
     }
 }
 
-.btn{
+button {
     background-color: #555;
     font-family:Josefin Sans, sans-serif;
     color: white;
@@ -40,8 +40,8 @@
     border-radius: 5px;
     margin: 10px 0px 10px 0px;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
-
 }
+
 
 .form{
     display: flex;

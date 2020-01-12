@@ -1,18 +1,18 @@
 .skill {
     background-color: #e4e4e4;
-    width: 250px;
-    height: 350px;
+    width: 350px;
+    height: 300px;
     display: flex;
     flex-direction: column;
     align-items: center;
     border-radius: 15px;
-    margin: 0px 0px 35px 0px
+    margin: 0px 0px 35px 0px;
   }
 
 .skills_1 {
     background-color: #e4e4e4;
-    width: 250px;
-    height: 350px;
+    width: 350px;
+    height: 300px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -28,10 +28,21 @@
     justify-content:center;
     align-items: center;
     border-radius: 15px;
+
 }
+.icon_1 {
+    background-image: url("toDolist2.2.png");
+}
+.icon_2 {
+    background-image: url("toDolist2.2.png");
+}
+.icon_3 {
+    background-image: url("toDolist2.2.png");
+}
+
 .icon {
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 200px;
     background-color: #555555;
     display: flex;
     flex-direction: column;
@@ -82,14 +93,4 @@
     text-align: center;
 }
 
-@media(min-width: 937px) {
-.skill {
-    background-color: #e4e4e4;
-    width: 250px;
-    height: 350px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border-radius: 15px;
-    margin: 0px 0px 35px 0px;
-}}
+

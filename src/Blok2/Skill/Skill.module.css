@@ -1,6 +1,5 @@
-.skill {
+.skillBox {
   width: 250px;
-  height: 280px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -11,21 +10,22 @@
      height: 80px;
    }
 
-.title {
+.skillTitle {
   text-align: center;
   font-weight: bold;
-  font-family: Josefin Sans, sans-serif;
   color: rgba(31, 31, 32, 0.09);
-  font-size: 20px;
   color: white;
-
+  font-family: Josefin Sans, sans-serif;
+  display: flex;
+  padding: 35px 0px 0px 0px;
+  font-size: 30px;
 }
 
-.description{
-  margin: 40px 1px 1px 1px ;
-  font-weight: bold;
-  font-family: Josefin Sans, sans-serif;
-  text-align: justify;
-  word-wrap:inherit;
-  color: #b2b2b5;
+.skillDescription{
+margin: 40px 1px 1px 1px ;
+font-weight: bold;
+font-family: Josefin Sans, sans-serif;
+text-align: center;
+word-wrap:inherit;
+color: #b2b2b5;
 }

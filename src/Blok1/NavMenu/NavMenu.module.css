@@ -3,6 +3,7 @@
   display: flex;
   justify-content: space-between;
   margin: 0% 2% 0% 0%;
+
 }
 .link{
   text-decoration: none;
@@ -59,3 +60,4 @@
     margin-left: 30px;
   }
 }
+

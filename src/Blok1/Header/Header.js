@@ -1,11 +1,11 @@
 import React from 'react';
 import styles from './Header.module.css';
-import NavMenu from "./NavMenu";
+import NavMenu from "../NavMenu/NavMenu";
 
 function Header() {
     return (
-        <div className={styles.header}>
-            <div className={styles.container}>
+        <div className={styles.headerBox}>
+            <div className={styles.headerContainer}>
                 <NavMenu/>
             </div>
         </div>

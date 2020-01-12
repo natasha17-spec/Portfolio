@@ -75,16 +75,16 @@ function Main() {
     };
     return (
 
-        <div className={styles.main}>
-            <div className={styles.container}>
+        <div className={styles.mainBox}>
+            <div className={styles.mainContainer}>
                 <Particles className={styles.particles} params={params}/>
                 <div className={styles.greeting}>
                     <span>Hi!</span>
                     <span>My name is <span>Nataliya Herasimovich</span></span>
                     <h1>I'm Frontend developer</h1>
                 </div>
-                <div className={styles.photo}>
-                    <div></div>
+                <div className={styles.mainPhoto}>
+                    <div> </div>
                 </div>
             </div>
         </div>
@@ -93,4 +93,3 @@ function Main() {
 
 export default Main;
 
-// <Particles className={styles.particles} params={params} />

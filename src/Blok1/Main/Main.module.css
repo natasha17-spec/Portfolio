@@ -1,9 +1,10 @@
-.main {
-  min-height:150vh;
-  width:100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.mainBox {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 .particles {
     position: absolute;
@@ -18,8 +19,7 @@
     height: 3200px;
     z-index: -1;
 }
-
-.container {
+.mainContainer {
    width: 80%;
   height: 70%;
   display: flex;
@@ -31,6 +31,7 @@
   display: flex;
   flex-direction: column;
     color: white;
+    padding-bottom: 50px;
 }
 .greeting span:first-child {
     font-weight: 400;
@@ -55,24 +56,6 @@
     z-index: 0;
 
     }
-
-h1 {
-font-size: 20px;
-font-family:Poppins, sans-serif;
-    font-weight: 400;
-}
-.photo {
-height: 350px;
- width: 300px;
-  background-color: #dcd7f4;
-    border-radius: 15px;
-}
-.photo div {
-
-    height: 400px;
-    width: 250px;
-    border-radius: 15px;
-}
 .greeting span:nth-child(2) span:before {
     content: "";
     position: absolute;
@@ -84,7 +67,22 @@ height: 350px;
     z-index: -4;
     background: #ea548d;
 }
-
+h1 {
+font-size: 20px;
+font-family:Poppins, sans-serif;
+    font-weight: 400;
+}
+.mainPhoto {
+height: 350px;
+ width: 300px;
+  background-color: #dcd7f4;
+    border-radius: 15px;
+}
+.mainPhoto div {
+    height: 400px;
+    width: 250px;
+    border-radius: 15px;
+}
 
 @media screen and (max-width: 542px){
     greeting span:nth-child(2),
@@ -102,35 +100,14 @@ height: 350px;
         align-items: center;
         padding: 10px;
     }}
-
-
-
-@media screen and (max-width:931px){
-    .main{
-        height: 150vh;
-    }
-}
-@media screen and (max-width:411px){
-    .main{
-        height: 90vh;
-    }
-}
-@media screen and (max-width:360px){
-    .main{
-        height: 130vh;
-    }
-}
-
 @media screen and (max-width:931px){
 .greeting {
     display: flex;
     flex-direction: column;
     color: white;
-    text-align: center;
+    text-align: left;
     padding: 10px;
 }}
-
-
 @media screen and (max-width:1190px){
     .greeting span:nth-child(2) span:before {
     content: "";
@@ -144,17 +121,14 @@ height: 350px;
     background: #ea548d;
 }}
 @media screen and (max-width:965px){
-.main {
-
-
+.mainBox {
     display: flex;
     justify-content: center;
     align-items: center;
 
 }}
 @media screen and (max-width:375px){
-.main {
-    height:120vh;
+.mainBox {
     width:100%;
     display: flex;
     justify-content: center;
@@ -162,25 +136,21 @@ height: 350px;
 
 }}
 @media screen and (max-width:320px){
-.main {
-    height:140vh;
+.mainBox {
     width:100%;
     display: flex;
     justify-content: center;
     align-items: center;
-
 }}
 @media screen and (min-width:1024px){
-.main {
-    height:70vh;
+.mainBox {
     width:100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }}
 @media screen and (min-width:768px){
-.main {
-
+.mainBox {
     width:100%;
     display: flex;
     justify-content: center;
