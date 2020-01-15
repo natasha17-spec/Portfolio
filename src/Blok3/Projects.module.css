@@ -21,17 +21,40 @@
     justify-content: center;
     align-items: center;
     display: flex;
-    padding-block-end: 50px;
     font-family: Josefin Sans, sans-serif;
     font-size: 30px;
     box-sizing: border-box;
 }
+.title span {
+    font: 700 40px/1.2 'Josefin Sans', sans-serif;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 0px 0px 20px 0px;
+    font-size: 35px;
+    box-sizing: border-box;
+    letter-spacing: 5px;
+    position: relative;
+    font-weight: 600;
+    color: #fff;
+    text-transform: capitalize;
+}
+.moduleLine{
+    background: #4e93e6;
+    width: 55px;
+    height: 1px;
+    margin: 30px auto;
+}
+
+
+
 
 .skillsWraper {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     align-items: center;
+    padding-top: 30px;
 }
 
 @media(max-width: 941px) {

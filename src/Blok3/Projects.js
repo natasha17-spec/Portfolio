@@ -12,7 +12,9 @@ function Projects() {
             <div className={styles.wrapper}>
                 <div className={styles.title}>
                     <span> My Project </span>
+
                 </div>
+                <div className={styles.moduleLine}> </div>
                 <div className={styles.skillsWraper}>
                     <Project2/>
                     <Project3/>

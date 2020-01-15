@@ -12,10 +12,10 @@ import Projects from "./Blok3/Projects";
 
 class App extends React.Component{
   tasks = [
-    {title: 'React', description: 'React — это библиотека JavaScript с открытым исходным кодом, которая используется для создания пользовательского интерфейса. Она была создана компанией Facebook и представлена разработчикам в 2013 году.'},
-    {title: 'HTML&CSS', description: 'Стилем или CSS (Cascading Style Sheets, каскадные таблицы стилей) называется набор параметров форматирования, который применяется к элементам документа, чтобы изменить их внешний вид.'},
-    {title: 'JavaScript', description: 'JavaScript был создан программистом Brendan Eich из Netscape и представлен в декабре 1995 года под названием LiveScript.'},
-    {title: 'JavaScript', description: 'JavaScript был создан программистом Brendan Eich из Netscape и представлен в декабре 1995 года под названием LiveScript.'},
+    {title: 'REACT', description: 'React — это библиотека JavaScript с открытым исходным кодом, которая используется для создания пользовательского интерфейса. Она была создана компанией Facebook и представлена разработчикам в 2013 году.'},
+    {title: 'HTML', description: 'Стилем или CSS (Cascading Style Sheets, каскадные таблицы стилей) называется набор параметров форматирования, который применяется к элементам документа, чтобы изменить их внешний вид.'},
+    {title: 'CSS', description: 'JavaScript был создан программистом Brendan Eich из Netscape и представлен в декабре 1995 года под названием LiveScript.'},
+    {title: 'JS', description: 'JavaScript был создан программистом Brendan Eich из Netscape и представлен в декабре 1995 года под названием LiveScript.'},
     {title: 'JavaScript', description: 'JavaScript был создан программистом Brendan Eich из Netscape и представлен в декабре 1995 года под названием LiveScript.'},
     {title: 'JavaScript', description: 'JavaScript был создан программистом Brendan Eich из Netscape и представлен в декабре 1995 года под названием LiveScript.'}
   ];

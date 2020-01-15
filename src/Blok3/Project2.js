@@ -8,7 +8,8 @@ function Project2() {
         <div className={styles.skills_1}>
             <div className={styles.icon}>
                 <div> </div>
-                <button className={styles.btn}>Look</button>
+                <a href="https://github.com/natasha17-spec/ToDoListIT?files=1" className={styles.btn} target='blank'>Look</a>
+                {/*<button className={styles.btn}>Look</button>*/}
             </div>
 
             <span className={styles.title_1}>TodoList</span>
