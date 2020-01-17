@@ -6,16 +6,19 @@ function Main() {
     const params = {
         particles: {
             number: {
-                value:500
+                value:350
             },
             color: {
-                value: '#ffffff'
+                value: '#5fd5f5'
             },
             shape: {
-                type: 'bow',
+                type: 'triangle',
                 stroke: {
-                    width: 1,
-                    color: 'coral'
+                    width: 2,
+                    color: '#5fd5f5'
+                },
+                "polygon": {
+                    "nb_sides": 6 /* количество сторон полигона (type: polygon), от 3 до 12 */
                 },
                 image: {
                     src: 'http://www.iconsdb.com/icons/preview/white/contacts-xxl.png'
@@ -41,13 +44,13 @@ function Main() {
                 enable: true,
                 distance: 140,
                 color: '#fff',
-                width: 1.5
+                width: 1
             },
             move: {
                 enable: true,
-                speed: 1,
+                speed: 8,
                 direction: 'none',
-                straight: false
+                "bounce": false
             }
         },
         interactivity: {
@@ -57,7 +60,7 @@ function Main() {
                     mode: 'repulse'
                 },
                 onclick: {
-                    enable: true,
+                    enable: false,
                     mode: 'push'
                 }
             },

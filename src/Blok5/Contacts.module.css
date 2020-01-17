@@ -32,7 +32,7 @@
 button {
     background-color: #555;
     font-family:Josefin Sans, sans-serif;
-    color: white;
+    color: #c5c5c6;
     font-size: 20px;
     padding: 2% 4%;
     border: none;
@@ -56,10 +56,12 @@ button {
     width: 100%;
     margin-bottom: 1%;
     height: 3vh;
+    background-color: #dcd7f4;
 }
 .form textarea{
     height: 80%;
     width: 100%;
+    background-color: #dcd7f4;
 }
 .text_contact {
     font-family:Josefin Sans, sans-serif;
