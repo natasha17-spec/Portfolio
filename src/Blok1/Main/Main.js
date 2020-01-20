@@ -77,8 +77,7 @@ function Main() {
         }
     };
     return (
-
-        <div className={styles.mainBox}>
+        <div className={styles.mainBox} id='main'>
             <div className={styles.mainContainer}>
                 <Particles className={styles.particles} params={params}/>
                 <div className={styles.greeting}>

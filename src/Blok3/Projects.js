@@ -8,7 +8,7 @@ import Project3 from "./Project3";
 
 function Projects() {
     return (
-        <div className={styles.skills}>
+        <div className={styles.skills} id='project'>
             <div className={styles.wrapper}>
                 <div className={styles.title}>
                     <span> My Project </span>

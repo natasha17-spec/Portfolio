@@ -3,7 +3,7 @@ import styles from './Contacts.module.css';
 
 function Contacts() {
     return (
-        <div className={styles.skill}>
+        <div className={styles.skill} id='contact'>
             <div className={styles.conteiner}>
                 <h2>Contact</h2>
                 <form className={styles.form}>
