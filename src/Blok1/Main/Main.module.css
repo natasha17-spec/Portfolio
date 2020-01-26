@@ -73,15 +73,21 @@ font-family:Poppins, sans-serif;
     font-weight: 400;
 }
 .mainPhoto {
-height: 350px;
+height: 400px;
  width: 300px;
   background-color: #dcd7f4;
-    border-radius: 15px;
+
 }
-.mainPhoto div {
-    height: 400px;
-    width: 250px;
-    border-radius: 15px;
+
+.mainPhoto div:nth-child(1):before{
+    content: "";
+    position: absolute;
+    height: 430px;
+    width: 300px;
+    border: 5px solid #ea548d;
+    left: 15px;
+    top: -20px;
+    z-index: -1;
 }
 
 @media screen and (max-width: 542px){
