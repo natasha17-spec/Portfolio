@@ -86,7 +86,7 @@ function Main() {
                     <h1>I'm Frontend developer</h1>
                 </div>
                 <div className={styles.mainPhoto}>
-                    <div className={styles.main_image}> </div>
+                    <div> </div>
                 </div>
             </div>
         </div>

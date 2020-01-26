@@ -1,5 +1,5 @@
 .mainBox {
-    min-height: 100vh;
+    min-height: 115vh;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -72,14 +72,18 @@ font-size: 20px;
 font-family:Poppins, sans-serif;
     font-weight: 400;
 }
-.mainPhoto {
+.mainPhoto{
+    position: relative;
+    z-index: 1;
+    margin-top: 50px;
+}
+.mainPhoto div {
 height: 400px;
  width: 300px;
   background-color: #dcd7f4;
-
 }
 
-.mainPhoto div:nth-child(1):before{
+.mainPhoto div:before{
     content: "";
     position: absolute;
     height: 430px;
