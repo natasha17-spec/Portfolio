@@ -1,5 +1,5 @@
 .mainBox {
-    min-height: 115vh;
+    min-height: 100vh;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -67,11 +67,25 @@
     z-index: -4;
     background: #ea548d;
 }
-h1 {
-font-size: 20px;
-font-family:Poppins, sans-serif;
-    font-weight: 400;
+
+p{
+    width: 11em;
+    color: #ff599c;
+    font-size: 23px;
+    font-family: 'Poppins, sans-serif;', cursive;
+    white-space:nowrap;
+    overflow:hidden;
+    -webkit-animation: type 7s steps(80, end);
+    animation: type 7s steps(80, end);
 }
+@keyframes type{
+    from { width: 0; }
+}
+
+@-webkit-keyframes type{
+    from { width: 0; }
+}
+
 .mainPhoto{
     position: relative;
     z-index: 1;
@@ -80,7 +94,7 @@ font-family:Poppins, sans-serif;
 .mainPhoto div {
 height: 400px;
  width: 300px;
-  background-color: #dcd7f4;
+  background-image: url("photo.jpg");
 }
 
 .mainPhoto div:before{
@@ -112,10 +126,11 @@ height: 400px;
     }}
 @media screen and (max-width:931px){
 .greeting {
+    height: 110%;
     display: flex;
     flex-direction: column;
     color: white;
-    text-align: left;
+    text-align: center;
     padding: 10px;
 }}
 @media screen and (max-width:1190px){
@@ -129,40 +144,4 @@ height: 400px;
     width: 0;
     z-index: -4;
     background: #ea548d;
-}}
-@media screen and (max-width:965px){
-.mainBox {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}}
-@media screen and (max-width:375px){
-.mainBox {
-    width:100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}}
-@media screen and (max-width:320px){
-.mainBox {
-    width:100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}}
-@media screen and (min-width:1024px){
-.mainBox {
-    width:100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}}
-@media screen and (min-width:768px){
-.mainBox {
-    width:100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }}

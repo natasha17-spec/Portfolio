@@ -81,9 +81,12 @@ function Main() {
             <div className={styles.mainContainer}>
                 <Particles className={styles.particles} params={params}/>
                 <div className={styles.greeting}>
-                    <span>Hi!</span>
+                    <span >Hi!</span>
                     <span>My name is <span>Nataliya Herasimovich</span></span>
-                    <h1>I'm Frontend developer</h1>
+                    <div>
+                    <p className={styles.textTyping}>I'm Frontend developer</p>
+                    </div>
+                        {/*<h1>I'm Frontend developer</h1>*/}
                 </div>
                 <div className={styles.mainPhoto}>
                     <div> </div>
