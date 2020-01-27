@@ -9,10 +9,12 @@
   opacity: 0.7;
 
 }
-.headerContainer {
+.headerContainer a{
   width: 80%;
   display: flex;
-  justify-content: flex-end;
-  align-items: center;
+  justify-content:flex-end;
 
+}
+.headerContainer{
+  display: flex;
 }

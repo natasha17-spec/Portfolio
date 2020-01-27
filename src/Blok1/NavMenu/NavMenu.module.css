@@ -9,17 +9,20 @@
 }
 .navMenu{
   display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 320px;
 }
 
-@media screen and (max-width:500px) {
-  а{
-    min-width: 80px;
-    display: flex;
-    justify-content: space-between;
-    margin: 0% 2% 0% 0%;
-    color: white;
-    text-decoration: none;
-    font-size: 1.25em;
+@media screen and (max-width:600px) {
+ .navMenu a{
+   min-width: 50px;
+   display: flex;
+   justify-content: center;
+   /*margin: 0% 2% 0% 0%;*/
+   color: white;
+   text-decoration: none;
+   font-size: 1em;
   }
 }
 .link {
