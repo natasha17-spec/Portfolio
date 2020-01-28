@@ -11,11 +11,13 @@ function Contacts() {
                     <input className={styles.text_contact} type='text' placeholder='e-mail'/>
                     <textarea className={styles.text_contact} type='text' placeholder='Message'></textarea>
                 </form>
-                <button type="submit" className={styles.button}
-                        >Send Message
-                </button>
-                {/*document.querySelector("#contact-form > div.ajax-hidden > button")*/}
-                {/*<button className={styles.btn}>Send</button>*/}
+                <div className={styles.wrapper}>
+                    <a href={'#!'} className={styles.btn}> Send Message
+                        <svg>
+                            <rect></rect>
+                        </svg>
+                    </a>
+                </div>
             </div>
         </div>
     );
