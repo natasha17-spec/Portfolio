@@ -46,7 +46,7 @@
 }
 
 .wrapper{
-    width:120px;
+    width:150px;
     margin: 5px auto;
 }
 .btn{
@@ -77,7 +77,7 @@ svg rect{
     fill:transparent;
     stroke: #5ec5e1;
     stroke-width: 5px;
-    stroke-dasharray: 10px 100px 20px 30px 20px 100px 20px 30px 10px;
+    stroke-dasharray: 10px 130px 20px 30px 20px 130px 20px 30px 10px;
     transition: .5s all;
 }
 .btn:hover rect{
