@@ -46,35 +46,7 @@
 }
 
 button {
-    box-sizing: border-box;
-    overflow: visible;
-    -webkit-appearance: button;
-    color: #f3ffff;
-    vertical-align: middle;
-    user-select: none;
-    animation-duration: 1s;
-    animation-fill-mode: both;
-    display: block;
-    font: 400 12px/1.2 'Josefin Sans', sans-serif;
-    text-transform: uppercase;
-    text-decoration: none;
-    letter-spacing: 1px;
-    padding: 12px 30px;
-    transition: all 0.8s ease-in-out 0s;
-    background: transparent;
-    max-width: 200px;
-    margin: 20px auto;
-    z-index: 22;
-    text-align: center;
-    border-radius: 5px;
-    width: 100%;
-    position: relative;
-    border: 2px solid #5ec5e1;
-    cursor: pointer;
-    visibility: visible;
-    animation-delay: 0.3s;
-    animation-name: fadeInUp;
-   box-shadow: 0 0 10px rgba(94, 197, 225, 0.5);
+
 }
 
 
