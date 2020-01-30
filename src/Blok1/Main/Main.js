@@ -82,7 +82,7 @@ function Main() {
                 <Particles className={styles.particles} params={params}/>
                 <div className={styles.greeting}>
                     <span >Hi!</span>
-                    <span>My name is <span>Nataliya Herasimovich</span></span>
+                    <span>My name is <span>Nataliya Gerasimovich</span></span>
 
                     <div className={styles.wrapper}>
                     <h1 className={styles.tittle}>I'm Frontend developer</h1>

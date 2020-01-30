@@ -4,8 +4,8 @@ import styles from './Contacts.module.css';
 function Contacts() {
     return (
         <div className={styles.skill} id='contact'>
-            <div className={styles.conteiner}>
-                <h2>Contact</h2>
+            <div className={styles.container}>
+                <span className={styles.contactSpan}>Contact</span>
                 <form className={styles.form}>
                     <input className={styles.text_contact} type='text' placeholder='Name'/>
                     <input className={styles.text_contact} type='text' placeholder='e-mail'/>

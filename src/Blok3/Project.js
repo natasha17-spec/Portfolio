@@ -3,17 +3,39 @@ import styles from './Project.module.css';
 
 
 
-function Project() {
+function Project(props) {
     return (
-        <div className={styles.skills_1}>
-            <div className={styles.icon}>
-                <div> </div>
-                <button className={styles.btn}>Look</button>
+        <div className={styles.project1}>
+            <div className={styles.centerBox}>
+                <div className={styles.icon}>
+                    <div> </div>
+                    <a className={styles.btn} href={""}>Look</a>
+                </div>
+                <div className={styles.containerSpan}>
+                    <span className={styles.title}>{props.project[0].titleProject}</span>
+                    <span className={styles.description}>{props.project[0].descriptionProject}</span>
+                </div>
             </div>
-            <span className={styles.title_1}>Social_Network</span>
-            <span className={styles.description}>Социальная сеть для знакомства и общения</span>
-
-
+            <div className={styles.centerBox}>
+                <div className={styles.icon}>
+                    <div> </div>
+                    <a className={styles.btn} href={""}>Look</a>
+                </div>
+                <div className={styles.containerSpan}>
+                    <span className={styles.title}>{props.project[1].titleProject}</span>
+                    <span className={styles.description}>{props.project[1].descriptionProject}</span>
+                </div>
+            </div>
+            <div className={styles.centerBox}>
+                <div className={styles.icon}>
+                    <div> </div>
+                    <a className={styles.btn} href={""}>Look</a>
+                </div>
+                <div className={styles.containerSpan}>
+                    <span className={styles.title}>{props.project[2].titleProject}</span>
+                    <span className={styles.description}>{props.project[2].descriptionProject}</span>
+                </div>
+            </div>
         </div>
           );
 }

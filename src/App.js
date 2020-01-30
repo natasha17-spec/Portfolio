@@ -20,8 +20,14 @@ class App extends React.Component{
       {title: 'JS', description: 'JavaScript был создан программистом Brendan Eich из Netscape и представлен в декабре 1995 года под названием LiveScript.'},
       {title: 'JavaScript', description: 'JavaScript был создан программистом Brendan Eich из Netscape и представлен в декабре 1995 года под названием LiveScript.'},
       {title: 'JavaScript', description: 'JavaScript был создан программистом Brendan Eich из Netscape и представлен в декабре 1995 года под названием LiveScript.'}
+    ],
+    project:[
+      {titleProject:"Social Network", descriptionProject:'OOP, React/React-Redux, Redux-thunk, API/Ajax, Deep copy vs shallow copy, Cookie, DAL'},
+      {titleProject:"TodoList", descriptionProject:'React/React-Redux, Add Tasks, Add Todolist, Click Checkbox, API/Ajax'},
+      {titleProject:"Portfolio", descriptionProject:'React, HTML, CSS, JS, Flexbox'},
+      {titleProject:"Count", descriptionProject:'React, HTML, CSS, JS'},
     ]
-  }
+  };
   render = () => {
 
     return (
@@ -30,7 +36,7 @@ class App extends React.Component{
             <Header tasks={this.state.tasks}/>
             <Main/>
             <Skills tasks={this.state.tasks}/>
-            <Projects/>
+            <Projects project={this.state.project}/>
             <Slogan/>
             <Contacts/>
             <Footer/>

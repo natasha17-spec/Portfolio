@@ -3,7 +3,6 @@ import styles from './Slogan.module.css';
 
 
 function Slogan() {
-
     return (
         <div className={styles.skill}>
             <div className={styles.conteiner}>

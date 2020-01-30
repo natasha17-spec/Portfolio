@@ -38,8 +38,6 @@ class Skills extends React.Component {
                             <div className={styles.icon3}></div>
                             <Skill title={this.props.tasks[3].title} description={this.props.tasks[3].description}/>
                         </div>
-
-
                     </div>
                 </div>
             </div>
