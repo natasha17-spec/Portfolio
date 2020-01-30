@@ -9,13 +9,13 @@ function Main() {
                 value:350
             },
             color: {
-                value: '#5fd5f5'
+                value: '#5ec5e1'
             },
             shape: {
-                type: 'triangle',
+                type: 'circle',
                 stroke: {
-                    width: 2,
-                    color: '#5fd5f5'
+                    width: 0.1,
+                    color: '#5ec5e1'
                 },
                 "polygon": {
                     "nb_sides": 6 /* количество сторон полигона (type: polygon), от 3 до 12 */

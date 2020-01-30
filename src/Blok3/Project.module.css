@@ -42,7 +42,7 @@
     font-style: italic;
     align-items: center;
     text-transform: uppercase;
-    color: white;
+    color: #252527;
     font-size: 16px;
     padding: 5% 7%;
     border: none;
@@ -51,6 +51,7 @@
     margin: 10px 0px 10px 0px;
     font-family: Josefin Sans, sans-serif;
     text-decoration: none;
+    text-shadow: 1px 1px 3px black, 0 0 2em #c1c1c3;
 }
 
 
@@ -86,4 +87,13 @@
     align-items: center;
     margin-bottom: 50px;
 }
-
+@media (max-width:1374px){
+    .project1{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}@media (max-width:1374px){
+    .description{
+    width: 50%;
+    }
+}
