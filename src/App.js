@@ -6,8 +6,9 @@ import Skills from "./Blok2/Skills";
 import Slogan from "./Blok4/Slogan";
 import Contacts from "./Blok5/Contacts";
 import Footer from "./Blok6/Footer";
-import Projects from "./Blok3/Projects";
 import NavMenu from "./Blok1/NavMenu/NavMenu";
+import Project from "./Projects/Project/Project";
+import Projects from "./Projects/Projects";
 
 
 
@@ -26,6 +27,7 @@ class App extends React.Component{
       {titleProject:"TodoList", descriptionProject:'React/React-Redux, Add Tasks, Add Todolist, Click Checkbox, API/Ajax'},
       {titleProject:"Portfolio", descriptionProject:'React, HTML, CSS, JS, Flexbox'},
       {titleProject:"Count", descriptionProject:'React, HTML, CSS, JS'},
+      {titleProject:"Game", descriptionProject:'React, HTML, CSS, JS'},
     ]
   };
   render = () => {

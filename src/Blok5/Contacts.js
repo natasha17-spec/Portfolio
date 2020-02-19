@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './Contacts.module.css';
+import Contactstest from "./TestContacts";
 
 function Contacts() {
     return (
@@ -8,7 +9,7 @@ function Contacts() {
                 <span className={styles.contactSpan}>Contact</span>
                 <form className={styles.form}>
                     <input className={styles.text_contact} type='text' placeholder='Name'/>
-                    <input className={styles.text_contact} type='text' placeholder='e-mail'/>
+                    <input className={styles.text_contact} type='text' placeholder='E-mail'/>
                     <textarea className={styles.text_contact} type='text' placeholder='Message'></textarea>
                 </form>
                 <div className={styles.wrapper}>

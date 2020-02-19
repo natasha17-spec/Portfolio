@@ -1,37 +1,26 @@
-.skill {
-    background-color: #e4e4e4;
-    width: 350px;
-    height: 300px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border-radius: 15px;
-    margin: 0px 0px 35px 0px;
-  }
-
-.project1 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 15px;
-    margin: 0px 0px 35px 0px;
-    padding-top: 10px;
+.projectContainer{
+ padding: 100px 0px;
+    margin:0 auto;
+    width: 80%;
 }
-
 .icon {
-    width: 400px;
+    width: 500px;
     height: 300px;
     display: flex;
     flex-direction: column;
     justify-content:center;
     align-items: center;
     margin: 20px;
-    background-color: #d7d7d8;
+    background-image: url("../ProjectPicture/1.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
+
 .containerSpan {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     word-wrap: inherit;
 }
@@ -72,7 +61,7 @@
     font-size: 18px;
     margin: 10px;
     text-align: center;
-    width: 70%;
+    width: 450px;
     line-height: 1.4em;
     letter-spacing: 0.1em;
     word-wrap: inherit;
@@ -80,20 +69,46 @@
     padding-top: 7px;
 
 }
-.centerBox{
+.boxProject{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 50px;
+    padding: 50px 0px 50px 0px;
 }
-@media (max-width:1374px){
-    .project1{
-        display: flex;
-        flex-wrap: wrap;
-    }
-}@media (max-width:1374px){
-    .description{
-    width: 50%;
-    }
+
+.projectTitle span {
+    font: 700 40px/1.2 'Josefin Sans', sans-serif;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 0px 0px 20px 0px;
+    font-size: 35px;
+    box-sizing: border-box;
+    letter-spacing: 5px;
+    position: relative;
+    font-weight: 600;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.moduleLine{
+    background: #60d9fa;
+    width: 55px;
+    height: 3px;
+    margin: 30px auto;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 70px;
+}
+.container{
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }

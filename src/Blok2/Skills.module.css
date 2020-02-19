@@ -39,7 +39,6 @@
     font-weight: 600;
     color: #fff;
     text-transform: capitalize;
-
 }
 .skillsWrapper {
     display: flex;
@@ -85,8 +84,8 @@
    }}
 
 .moduleLine{
-    background: #4e93e6;
+    background: #60d9fa;
     width: 55px;
-    height: 1px;
+    height: 3px;
     margin: 30px auto;
 }

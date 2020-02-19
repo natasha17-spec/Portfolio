@@ -74,7 +74,7 @@
 }
 .tittle{
     width: 22ch;
-    color: #ff599c;
+    color: #5ec5e1;
     font-size: 23px;
     font-family: Consolas, 'Liberation Mono', Menlo, Courier, monospace;
     white-space: nowrap;
@@ -118,7 +118,7 @@ height: 400px;
     position: absolute;
     height: 430px;
     width: 300px;
-    border: 5px solid #ea548d;
+    border: 5px solid #5ec5e1;
     left: 15px;
     top: -20px;
     z-index: -1;
@@ -159,5 +159,5 @@ height: 400px;
     height: 0;
     width: 0;
     z-index: -4;
-    background: #ea548d;
+    background: #5ec5e1;
 }}
