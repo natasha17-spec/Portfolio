@@ -1,0 +1,45 @@
+.footer {
+  display: flex;
+  min-height: 35vh;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #181819;
+}
+
+.name {
+   width: 80%;
+  height: 25vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  font-size: 18px;
+}
+
+.title {
+  text-align: center;
+}
+
+.containerIcon{
+  display: flex;
+  align-items: center;
+  padding: 1%;
+  justify-content: inherit;
+  width: 25%;
+}
+
+.icon a{
+  color: white;
+  position: absolute;
+}
+
+.prava {
+  font-size: 10px;
+}
+.moduleLine{
+  background: #60d9fa;
+  width: 40px;
+  height: 1px;
+  margin: -15px;
+}

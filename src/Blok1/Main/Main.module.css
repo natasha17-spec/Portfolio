@@ -1,53 +1,45 @@
-.mainBox {
+.main {
     min-height: 100vh;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+}
 
-}
-.particles {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background-size: cover;
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
-    width: auto;
-    height: 3200px;
-    z-index: -1;
-}
-.mainContainer {
-   width: 80%;
-  height: 70%;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-wrap: wrap;
+.container {
+    width: 80%;
+    height: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
     padding: 100px 0;
-  }
+}
+
 .greeting {
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
     color: white;
     padding-bottom: 50px;
 }
+
 .greeting span:first-child {
     font-weight: 400;
     font-size: 25px;
-    font-family:Poppins serif;
+    font-family: Poppins serif;
 }
+
 .greeting span:nth-child(2),
-.greeting span:nth-child(3) span{
+.greeting span:nth-child(3) span {
     font-weight: 700;
     font-size: 30px;
-    font-family:Josefin Sans, sans-serif;
+    font-family: Josefin Sans, sans-serif;
     letter-spacing: 5px;
 }
+
 .greeting span:nth-child(2),
-.greeting span:nth-child(2) span{
+.greeting span:nth-child(2) span {
     font-weight: 700;
     font-stretch: normal;
     font-size: 30px;
@@ -56,7 +48,8 @@
     position: relative;
     z-index: 0;
 
-    }
+}
+
 .greeting span:nth-child(2) span:before {
     content: "";
     position: absolute;
@@ -68,11 +61,13 @@
     z-index: -4;
     background: #ea548d;
 }
-.wrapper{
+
+.greetingIam {
     display: flex;
     justify-content: center;
 }
-.tittle{
+
+.tittle {
     width: 22ch;
     color: #5ec5e1;
     font-size: 23px;
@@ -84,7 +79,7 @@
     printed-text 5s steps(22);
 }
 
-@keyframes flashing-border{
+@keyframes flashing-border {
     0% {
         border-color: #5ec5e1;
     }
@@ -95,25 +90,26 @@
         border-color: #5ec5e1;
     }
 }
+
 @keyframes printed-text {
     from {
-        width:0;
+        width: 0;
     }
 }
 
-
-.mainPhoto{
+.mainPhoto {
     position: relative;
     z-index: 1;
     margin-top: 50px;
 }
+
 .mainPhoto div {
-height: 400px;
- width: 300px;
-  background-image: url("photo.jpg");
+    height: 400px;
+    width: 300px;
+    background-image: url("../../ProjectPicture/photo.jpg");
 }
 
-.mainPhoto div:before{
+.mainPhoto div:before {
     content: "";
     position: absolute;
     height: 430px;
@@ -124,14 +120,14 @@ height: 400px;
     z-index: -1;
 }
 
-@media screen and (max-width: 542px){
+@media screen and (max-width: 542px) {
     greeting span:nth-child(2),
-    .greeting span:nth-child(2) span{
+    .greeting span:nth-child(2) span {
         font-weight: 700;
         font-stretch: normal;
         font-size: 28px;
         line-height: 1.2;
-        font-family:Josefin Sans, sans-serif;
+        font-family: Josefin Sans, sans-serif;
         position: relative;
         z-index: 0;
         display: flex;
@@ -139,25 +135,30 @@ height: 400px;
         justify-content: center;
         align-items: center;
         padding: 10px;
-    }}
-@media screen and (max-width:931px){
-.greeting {
-    height: 110%;
-    display: flex;
-    flex-direction: column;
-    color: white;
-    text-align: center;
-    padding: 10px;
-}}
-@media screen and (max-width:1190px){
+    }
+}
+
+@media screen and (max-width: 931px) {
+    .greeting {
+        height: 110%;
+        display: flex;
+        flex-direction: column;
+        color: white;
+        text-align: center;
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 1190px) {
     .greeting span:nth-child(2) span:before {
-    content: "";
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    height: 0;
-    width: 0;
-    z-index: -4;
-    background: #5ec5e1;
-}}
+        content: "";
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        height: 0;
+        width: 0;
+        z-index: -4;
+        background: #5ec5e1;
+    }
+}

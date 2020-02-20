@@ -5,6 +5,8 @@
   justify-content: center;
   align-items: center;
     padding: 100px 0px;
+    position: relative;
+
 
 }
 .wrapper {
@@ -50,23 +52,23 @@
 
 
 .icon {
-    background-image: url('./Skill/react.png');
+    background-image: url('../ProjectPicture/react.png');
     width: 120px;
     height: 120px;
 
 }
 .icon1 {
-    background-image: url('./Skill/HTML.png');
+    background-image: url('../ProjectPicture/HTML.png');
     width: 120px;
     height: 120px;
 }
 .icon2 {
-    background-image: url(./Skill/CSS.png);
+    background-image: url(../ProjectPicture/CSS.png);
     width: 120px;
     height: 120px;
 }
 .icon3 {
-    background-image: url(./Skill/JS.png);
+    background-image: url(../ProjectPicture/JS.png);
     width: 120px;
     height: 120px;
 }

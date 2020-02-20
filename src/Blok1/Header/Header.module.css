@@ -8,6 +8,8 @@
   right: 0;
   opacity: 0.7;
   z-index: 2;
+  position: fixed;
+
 
 }
 .headerContainer a{

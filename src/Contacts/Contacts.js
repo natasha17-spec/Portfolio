@@ -1,10 +1,10 @@
 import React from 'react';
 import styles from './Contacts.module.css';
-import Contactstest from "./TestContacts";
+
 
 function Contacts() {
     return (
-        <div className={styles.skill} id='contact'>
+        <div className={styles.contacts} id='contact'>
             <div className={styles.container}>
                 <span className={styles.contactSpan}>Contact</span>
                 <form className={styles.form}>
