@@ -1,14 +1,15 @@
 import React from 'react';
 import styles from './Skills.module.css';
 import Skill from "./Skill/Skill";
-
+import Fade from 'react-reveal/Fade';
 
 
 class Skills extends React.Component {
     render = () => {
         return (
-
+            <Fade bottom>
             <div className={styles.skills} id='skills' >
+
                 <div className={styles.wrapper}>
                     <div className={styles.skillTitle}>
                         <span name="top"> My skills </span>
@@ -48,8 +49,9 @@ class Skills extends React.Component {
                         </div>
                     </div>
                 </div>
-            </div>
 
+            </div>
+            </Fade>
 
         );
     }

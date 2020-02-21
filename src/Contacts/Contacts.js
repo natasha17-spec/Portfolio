@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './Contacts.module.css';
+import {Fade} from "react-reveal";
 
 
 function Contacts() {
@@ -9,10 +10,16 @@ function Contacts() {
                 <span className={styles.contactSpan}>Contact</span>
                 <div className={styles.moduleLine}> </div>
                 <form className={styles.form}>
+                    <Fade bottom>
                     <input className={styles.formArea} type='text' placeholder='Name'/>
+                    </Fade>
+                    <Fade bottom>
                     <input className={styles.formArea} type='text' placeholder='E-mail'/>
+                    </Fade>
+                    <Fade bottom>
                     <textarea className={styles.formArea} type='text' placeholder='Message'></textarea>
-                </form>
+                    </Fade>
+                    </form>
                 <div className={styles.wrapper}>
                     <a href={'#!'} className={styles.btn}>Send Message
                         <svg>

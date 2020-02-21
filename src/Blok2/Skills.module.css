@@ -58,7 +58,7 @@
 
 }
 .icon1 {
-    background-image: url('../ProjectPicture/HTML.png');
+    background-image: url(../ProjectPicture/HTML.png);
     width: 120px;
     height: 120px;
 }

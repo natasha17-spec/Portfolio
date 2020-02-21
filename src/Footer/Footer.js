@@ -3,6 +3,7 @@ import styles from './Footer.module.css';
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {fab} from '@fortawesome/free-brands-svg-icons';
 import {library} from "@fortawesome/fontawesome-svg-core";
+import Flash from 'react-reveal/Flash';
 
 
 library.add(fab);
@@ -14,6 +15,7 @@ function Footer() {
             <div className={styles.moduleLine}>
             </div>
             <div className={styles.containerIcon}>
+                <Flash>
                 <div className={styles.icon}>
                     <a href="https://t.me/natali_kul" target="_blank"><FontAwesomeIcon icon={['fab', 'telegram-plane']}
                                                                                        size='2x'/></a>
@@ -30,6 +32,7 @@ function Footer() {
                     <a href="https://api.whatsapp.com/send?phone=375293452559" target="_blank"><FontAwesomeIcon
                         icon={['fab', 'whatsapp']} size='2x'/></a>
                 </div>
+                </Flash>
             </div>
             <span className={styles.prava}>©2020 Все права защищены</span>
         </div>

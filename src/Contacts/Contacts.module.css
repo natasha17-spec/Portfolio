@@ -114,7 +114,10 @@ svg rect{
     color: white;
     font-size: 16px;
 }
+.form input:hover{
+    background-color: #575758;
 
+}
 
 .form textarea {
     height: 80%;
