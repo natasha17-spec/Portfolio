@@ -68,7 +68,18 @@
     height: 120px;
 }
 .icon3 {
+    background-image: url(../ProjectPicture/TypeScr.svg);
+    width: 120px;
+    height: 120px;
+}
+
+.icon4 {
     background-image: url(../ProjectPicture/JS.png);
+    width: 120px;
+    height: 120px;
+}
+.icon5 {
+    background-image: url(../ProjectPicture/react.png);
     width: 120px;
     height: 120px;
 }

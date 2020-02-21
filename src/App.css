@@ -3,15 +3,16 @@
 }
 
 .particles {
-    position: fixed !important;
+    position: fixed;
     top: 0;
     right: 0;
     left: 0;
     bottom: 0;
-    background-size: auto;
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
-    width: auto;
-    z-index: -1;
-    height: 3200px
+    /*background-size: auto;*/
+    /*background-position: 50% 50%;*/
+    /*background-repeat: no-repeat;*/
+    /*width: auto;*/
+    /*z-index: -1;*/
+    height: 3200px;
+    opacity: 0.4;
 }

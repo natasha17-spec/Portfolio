@@ -43,3 +43,7 @@
   height: 1px;
   margin: -15px;
 }
+@media(max-width: 640px){
+  .icon a{
+    font-size: 14px;
+   }}
