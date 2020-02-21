@@ -139,17 +139,6 @@ svg rect{
     padding: 10px;
 }
 
-@media(max-width: 414px) {
-.form input{
-    width: 150%;
-    margin-bottom: 1%;
-    height: 5vh;
-}}
-@media(max-width: 414px) {
-    .form textarea{
-        height: 100%;
-        width: 150%;
-}}
 
 .moduleLine{
     background: #60d9fa;
