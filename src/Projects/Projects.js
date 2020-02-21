@@ -26,11 +26,11 @@ return (
                     <span>My Project</span>
                     <div className={styles.moduleLine}> </div>
                 </div>
-                <Bounce left>
+                <Fade right>
                 <div className={styles.projects}>
                    {projectElements}
                 </div>
-                </Bounce>
+                </Fade>
             </div>
         </div>
     );
