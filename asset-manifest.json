@@ -1,20 +1,22 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.c5bb1077.chunk.css",
-    "main.js": "/Portfolio/static/js/main.e56ed6ec.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.e56ed6ec.chunk.js.map",
-    "runtime-main.js": "/Portfolio/static/js/runtime-main.8af804fc.js",
-    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.8af804fc.js.map",
-    "static/js/2.f56838a1.chunk.js": "/Portfolio/static/js/2.f56838a1.chunk.js",
-    "static/js/2.f56838a1.chunk.js.map": "/Portfolio/static/js/2.f56838a1.chunk.js.map",
+    "main.css": "/Portfolio/static/css/main.0d601e97.chunk.css",
+    "main.js": "/Portfolio/static/js/main.b819b287.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.b819b287.chunk.js.map",
+    "runtime-main.js": "/Portfolio/static/js/runtime-main.d085d792.js",
+    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.d085d792.js.map",
+    "static/js/2.5f671a7b.chunk.js": "/Portfolio/static/js/2.5f671a7b.chunk.js",
+    "static/js/2.5f671a7b.chunk.js.map": "/Portfolio/static/js/2.5f671a7b.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "precache-manifest.6f1ddccda5fc07a8d7ea9216b032b7ce.js": "/Portfolio/precache-manifest.6f1ddccda5fc07a8d7ea9216b032b7ce.js",
+    "precache-manifest.6710a822db1d905d6c3670c6905c6175.js": "/Portfolio/precache-manifest.6710a822db1d905d6c3670c6905c6175.js",
     "service-worker.js": "/Portfolio/service-worker.js",
-    "static/css/main.c5bb1077.chunk.css.map": "/Portfolio/static/css/main.c5bb1077.chunk.css.map",
-    "static/media/1.png": "/Portfolio/static/media/1.d57959b2.png",
+    "static/css/main.0d601e97.chunk.css.map": "/Portfolio/static/css/main.0d601e97.chunk.css.map",
+    "static/media/Advanced Count.PNG": "/Portfolio/static/media/Advanced Count.289a2516.PNG",
+    "static/media/Simpl_Count_On_Redux.PNG": "/Portfolio/static/media/Simpl_Count_On_Redux.fd7795de.PNG",
     "static/media/Skills.module.css": "/Portfolio/static/media/TypeScr.f88eb485.svg",
-    "static/media/cats.jpg": "/Portfolio/static/media/cats.88482a18.jpg",
     "static/media/Main.module.css": "/Portfolio/static/media/photo.a7a3f4eb.jpg",
-    "static/media/project_1.png": "/Portfolio/static/media/project_1.34d2952f.png"
+    "static/media/portfolio.PNG": "/Portfolio/static/media/portfolio.cd5ca201.PNG",
+    "static/media/social_network.png": "/Portfolio/static/media/social_network.a111b285.png",
+    "static/media/todolist.png": "/Portfolio/static/media/todolist.01236eee.png"
   }
 }
