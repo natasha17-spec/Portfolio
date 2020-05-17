@@ -22,11 +22,11 @@ class App extends React.Component{
       {title: 'REACT/REDUX', description: 'JavaScript был создан программистом Brendan Eich из Netscape и представлен в декабре 1995 года под названием LiveScript.'}
     ],
     project:[
-      {titleProject:"Social Network", descriptionProject:'OOP, React/React-Redux, Redux-thunk, API/Ajax, Deep copy vs shallow copy, Cookie, DAL'},
-      {titleProject:"TodoList", descriptionProject:'React/React-Redux, Add Tasks, Add Todolist, Click Checkbox, API/Ajax'},
+      {titleProject:"Social Network", descriptionProject:'React/React-Redux, Thunk, API/Ajax, Cookie'},
+      {titleProject:"TodoList", descriptionProject:'React/React-Redux,Thunk, API/Ajax, Type Script'},
       {titleProject:"Portfolio", descriptionProject:'React, HTML, CSS, JS, Flexbox'},
-      {titleProject:"Count", descriptionProject:'React, HTML, CSS, JS'},
-      {titleProject:"Game", descriptionProject:'React, HTML, CSS, JS' },
+      {titleProject:"Simple Count", descriptionProject:'React,Redux, HTML, CSS, JS'},
+      {titleProject:"Advanced Count", descriptionProject:'React, Redux, HTML, CSS, JS'},
     ]
   };
 

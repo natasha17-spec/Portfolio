@@ -1,21 +1,28 @@
 import React from 'react';
 import styles from './Projects.module.css'
 import Project from "./Project/Project";
-import image1 from "../ProjectPicture/1.png"
-import image2 from "../ProjectPicture/cats.jpg"
-import image3 from "../ProjectPicture/HTMLCSS.png"
-import image4 from "../ProjectPicture/viber.png"
-import image5 from "../ProjectPicture/project_1.png"
-import image6 from "../ProjectPicture/todolist1.jpg"
+import image1 from "../ProjectPicture/social_network.png"
+import image2 from "../ProjectPicture/todolist.png"
+import image3 from "../ProjectPicture/portfolio.PNG"
+import image4 from "../ProjectPicture/Simpl_Count_On_Redux.PNG"
+import image5 from "../ProjectPicture/Advanced Count.PNG"
 import Fade from "react-reveal/Fade";
-import {Bounce, Flip, LightSpeed, Pulse, Roll, Slide} from "react-reveal";
+
 
 
 
 function Projects (props) {
-    let arrayImage  = [image1,image2, image3,image4, image5,image6]
+    let hrefProject = ["https://natasha17-spec.github.io/Network/#/profile",
+        "https://natasha17-spec.github.io/ToDoListIT",
+        "https://github.com/natasha17-spec/Portfolio",
+        "https://natasha17-spec.github.io/Simple_Counter_Redux",
+        "https://natasha17-spec.github.io/Advanced_counter_Redux",
+        "https://natasha17-spec.github.io/Simple_Counter_Redux",
+    ];
+    let arrayImage  = [image1,image2, image3,image4, image5]
     let projectElements = props.project.map( (task, index) =><Project titleProject={task.titleProject}
                                                               urlImage={arrayImage[index]}
+                                                                            href={hrefProject[index]}
                                                                descriptionProject={task.descriptionProject} />);
 
 return (

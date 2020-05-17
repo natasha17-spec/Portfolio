@@ -1,6 +1,6 @@
-.projectContainer{
- padding: 100px 0px;
-    margin:0 auto;
+.projectContainer {
+    padding: 100px 0px;
+    margin: 0 auto;
     width: 80%;
 }
 
@@ -14,114 +14,103 @@
 }
 
 .projectImg {
-width: 500px;
-height: 300px;
-display: flex;
-flex-direction: column;
-justify-content:center;
-align-items: center;
-margin: 20px;
-background-image: url("../../ProjectPicture/1.png");
-background-size: cover;
-background-position: center;
-background-repeat: no-repeat;
-}
-
-.projectImg:before {
-    content: "";
-    position: absolute;
-    top: 20px;
-    left: 20px;
-    right: 0px;
-    height:300px;
-    background-color: #000000;
-    opacity: 0.4;
+    width: 500px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .container {
-display: flex;
-flex-direction: column;
-justify-content: space-around;
-align-items: center;
-word-wrap: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    word-wrap: inherit;
 }
 
 .btn {
-display: flex;
-justify-content: center;
-font-style: italic;
-align-items: center;
-text-transform: uppercase;
-color: #252527;
-font-size: 16px;
-padding: 3% 5%;
-border: 2px solid white;
-cursor: pointer;
-border-radius: 5px;
-margin: 10px 0px 10px 0px;
-font-family: Josefin Sans, sans-serif;
-text-decoration: none;
-text-shadow: 1px 1px 3px black, 0 0 2em #c1c1c3;
-position: relative;
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+    align-items: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 3% 3%;
+    border: 2px solid white;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: Josefin Sans, sans-serif;
+    text-decoration: none;
+    text-shadow: 3px 6px 3px black, 0 0 2em #c1c1c3;
+    position: relative;
+    background-color: #575758;
+    margin: -5px 0px -39px 400px;
 }
 
-
-.title{
-color: #5fa8d5;
-font-weight: bold;
-padding-top: 25px;
-font-family: Josefin Sans, sans-serif;
-font-size: 22px;
-text-transform: uppercase;
+.title {
+    color: #5fa8d5;
+    font-weight: bold;
+    padding-top: 25px;
+    font-family: Josefin Sans, sans-serif;
+    font-size: 22px;
+    text-transform: uppercase;
 
 }
 
 .description {
-color: #fff6e6;
-font-weight: bold;
-font-family: Josefin Sans, sans-serif;
-font-size: 18px;
-margin: 10px;
-text-align: center;
-width: 450px;
-line-height: 1.4em;
-letter-spacing: 0.1em;
-word-wrap: inherit;
-border-top: 2px solid;
-padding-top: 7px;
+    color: #fff6e6;
+    font-weight: bold;
+    font-family: Josefin Sans, sans-serif;
+    font-size: 18px;
+    margin: 10px;
+    text-align: center;
+    width: 450px;
+    line-height: 1.4em;
+    letter-spacing: 0.1em;
+    word-wrap: inherit;
+    border-top: 2px solid;
+    padding-top: 7px;
 
 }
-.boxProject{
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-padding: 50px 0px 50px 0px;
+
+.boxProject {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px 50px 0px;
 }
 
 .projectTitle span {
-font: 700 40px/1.2 'Josefin Sans', sans-serif;
-justify-content: center;
-align-items: center;
-display: flex;
-padding: 0px 0px 20px 0px;
-font-size: 35px;
-box-sizing: border-box;
-letter-spacing: 5px;
-position: relative;
-font-weight: 600;
-color: #fff;
-text-transform: capitalize;
+    font: 700 40px/1.2 'Josefin Sans', sans-serif;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 0px 0px 20px 0px;
+    font-size: 35px;
+    box-sizing: border-box;
+    letter-spacing: 5px;
+    position: relative;
+    font-weight: 600;
+    color: #fff;
+    text-transform: capitalize;
 }
 
-.moduleLine{
-background: #60d9fa;
-width: 55px;
-height: 3px;
-margin: 30px auto;
+.moduleLine {
+    background: #60d9fa;
+    width: 55px;
+    height: 3px;
+    margin: 30px auto;
 }
 
-.name{
+.name {
     display: flex;
     align-items: center;
     flex-wrap: wrap;

@@ -101,8 +101,13 @@
     position: relative;
     z-index: 1;
     margin-top: 50px;
+    transition: 500ms;
+    transition-timing-function: ease;
 }
+.mainPhoto:hover {
+    transform: scale(1.1);
 
+}
 .mainPhoto div {
     height: 400px;
     width: 300px;
