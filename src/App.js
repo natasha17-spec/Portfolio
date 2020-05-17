@@ -8,6 +8,7 @@ import Contacts from "./Contacts/Contacts";
 import Footer from "./Footer/Footer";
 import Projects from "./Projects/Projects";
 import Particles from "react-particles-js";
+import * as axios from 'axios'
 
 
 
@@ -24,7 +25,7 @@ class App extends React.Component{
     project:[
       {titleProject:"Social Network", descriptionProject:'React/React-Redux, Thunk, API/Ajax, Cookie'},
       {titleProject:"TodoList", descriptionProject:'React/React-Redux,Thunk, API/Ajax, Type Script'},
-      {titleProject:"Portfolio", descriptionProject:'React, HTML, CSS, JS, Flexbox'},
+      {titleProject:"Portfolio", descriptionProject:'React, HTML, CSS, JS, Flexbox, Node Express'},
       {titleProject:"Simple Count", descriptionProject:'React,Redux, HTML, CSS, JS'},
       {titleProject:"Advanced Count", descriptionProject:'React, Redux, HTML, CSS, JS'},
     ]
@@ -104,6 +105,12 @@ class App extends React.Component{
         }
       }
     };
+
+const onSubmit = (name, email, message) => {
+    axios.post('http://localhost:3010/sendMessage', {name, email, message}).then( res=> {
+      alert('Ваше письмо отправлено')
+    })
+}
     return (
         <div className="App">
           <div className="portfolio">
@@ -113,7 +120,7 @@ class App extends React.Component{
             <Skills tasks={this.state.tasks}/>
             <Projects project={this.state.project}/>
             <Slogan/>
-            <Contacts/>
+            <Contacts onSubmit={onSubmit}/>
             <Footer/>
           </div>
         </div>

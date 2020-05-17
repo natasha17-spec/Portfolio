@@ -5,7 +5,7 @@ import image1 from "../ProjectPicture/social_network.png"
 import image2 from "../ProjectPicture/todolist.png"
 import image3 from "../ProjectPicture/portfolio.PNG"
 import image4 from "../ProjectPicture/Simpl_Count_On_Redux.PNG"
-import image5 from "../ProjectPicture/Advanced Count.PNG"
+import image5 from "../ProjectPicture/advanced.png"
 import Fade from "react-reveal/Fade";
 
 
