@@ -93,8 +93,15 @@
 
 @media(max-width: 1249px) {
    .skillsWrapper {
-
+       display: flex;
+       align-items: center;
    }}
+@media(max-width: 1249px) {
+   .skillTitle {
+       display: flex;
+       flex-direction: column;
+       width: auto;
+}}
 
 .moduleLine{
     background: #60d9fa;

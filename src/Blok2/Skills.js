@@ -9,7 +9,6 @@ class Skills extends React.Component {
         return (
             <Fade bottom>
             <div className={styles.skills} id='skills' >
-
                 <div className={styles.wrapper}>
                     <div className={styles.skillTitle}>
                         <span name="top"> My skills </span>

@@ -151,6 +151,9 @@
         color: white;
         text-align: center;
         padding: 10px;
+        justify-content: center;
+        align-items: center;
+        width: 365px;
     }
 }
 
@@ -165,5 +168,12 @@
         width: 0;
         z-index: -4;
         background: #5ec5e1;
+    }
+}
+@media screen and (max-width: 400px) {
+    .mainPhoto {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }

@@ -22,7 +22,6 @@
     background-position: center;
 
 }
-
 .containerSpan {
     display: flex;
     flex-direction: column;
@@ -30,7 +29,6 @@
     align-items: center;
     word-wrap: inherit;
 }
-
 .btn {
     display: flex;
     justify-content: center;
@@ -48,9 +46,6 @@
     text-decoration: none;
     text-shadow: 1px 1px 3px black, 0 0 2em #c1c1c3;
 }
-
-
-
 .title{
     color: #5fa8d5;
     font-weight: bold;
@@ -105,3 +100,10 @@
     height: 3px;
     margin: 30px auto;
 }
+@media(max-width: 1249px) {
+.projectTitle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 100px;
+}}
