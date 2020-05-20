@@ -147,6 +147,7 @@ svg rect{
     font-family:Josefin Sans, sans-serif;
     width: 25px;
     padding: 10px;
+    resize: none;
 }
 
 

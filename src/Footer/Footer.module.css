@@ -45,21 +45,21 @@
 }
 @media(max-width: 1000px){
   .icon a{
-    font-size: 13px;
+    font-size: 15px;
    }}
 @media(max-width: 800px){
   .icon a{
-    font-size: 11px;
+    font-size: 13px;
    }}
 @media(max-width: 600px){
   .icon a{
-    font-size: 9px;
+    font-size: 11px;
    }}
 @media(max-width: 400px){
   .icon a{
-    font-size: 7px;
+    font-size: 9px;
    }}
 @media(max-width: 360px){
   .icon a{
-    font-size: 5px;
+    font-size: 7px;
    }}

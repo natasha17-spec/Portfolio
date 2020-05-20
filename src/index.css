@@ -1,5 +1,10 @@
 
+html{
 
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
 body {
   background-color: #252527;
   margin: 0;
@@ -19,6 +24,9 @@ body {
   font-family: 'Exo 2', sans-serif;
   font-family: 'Poppins', sans-serif;
   font-family: 'Josefin Sans', sans-serif;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 code {
