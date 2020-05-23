@@ -1,21 +1,22 @@
-.projectContainer{
-     padding: 100px 0px;
-     margin: 0 auto;
-     width: 80%;
- }
+.projectContainer {
+    padding: 100px 0px;
+    margin: 0 auto;
+    width: 80%;
+}
+
 .projects {
     display: flex;
-    align-items: flex-start;
+    justify-content: center;
     flex-wrap: wrap;
-    justify-content: space-around;
-    width:75%
+  /* width: 1500px;*/
 }
+
 .icon {
     width: 600px;
     height: 400px;
     display: flex;
     flex-direction: column;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
     margin: 20px;
     background-repeat: no-repeat;
@@ -23,6 +24,7 @@
     background-position: center;
 
 }
+
 .containerSpan {
     display: flex;
     flex-direction: column;
@@ -30,6 +32,7 @@
     align-items: center;
     word-wrap: inherit;
 }
+
 .btn {
     display: flex;
     justify-content: center;
@@ -47,7 +50,8 @@
     text-decoration: none;
     text-shadow: 1px 1px 3px black, 0 0 2em #c1c1c3;
 }
-.title{
+
+.title {
     color: #5fa8d5;
     font-weight: bold;
     padding-top: 25px;
@@ -72,7 +76,8 @@
     padding-top: 7px;
 
 }
-.boxProject{
+
+.boxProject {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -95,16 +100,17 @@
     text-transform: capitalize;
 }
 
-.moduleLine{
+.moduleLine {
     background: #60d9fa;
     width: 55px;
     height: 3px;
     margin: 30px auto;
 }
-@media(max-width: 1249px) {
-.projectTitle {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-left: 100px;
-}}
+
+@media (max-width: 1249px) {
+    .projectTitle {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}

@@ -8,7 +8,7 @@ function Contacts(props) {
         <div className={styles.contacts} id='contact'>
             <div className={styles.container}>
                 <span className={styles.contactSpan}>Contact</span>
-                <div className={styles.moduleLine}></div>
+                <div className={styles.moduleLine}> </div>
 
                 <AddMessageForm onSubmit={props.onSubmit}/>
             </div>

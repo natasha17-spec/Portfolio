@@ -107,7 +107,7 @@ class App extends React.Component{
     };
 
 const onSubmit = (name, email, message) => {
-    axios.post('http://localhost:3010/sendMessage', {name, email, message}).then( res=> {
+    axios.post("https://g-mail-portfolio.herokuapp.com/sendMessage", {name, email, message}).then( res=> {
       alert('Ваше письмо отправлено')
     })
 }
