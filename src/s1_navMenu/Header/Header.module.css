@@ -1,0 +1,22 @@
+.headerBox {
+    min-height: 40px;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    left: 0;
+    right: 0;
+    opacity: 0.7;
+    z-index: 2;
+    position: fixed;
+}
+
+.headerContainer a {
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.headerContainer {
+    display: flex;
+}

@@ -1,9 +1,9 @@
 import React from 'react';
 import styles from './Header.module.css';
-import NavMenu from "../NavMenu/NavMenu";
+import NavMenu from "../NavMenu";
 
 
-function Header(props) {
+function Header() {
     return (
         <div className={styles.headerBox}>
             <div className={styles.headerContainer}>

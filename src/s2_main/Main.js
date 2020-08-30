@@ -10,7 +10,7 @@ function Main() {
                     <span>Hi!</span>
                     <span>My name is <span>Nataliya Gerasimovich</span></span>
                     <div className={styles.greetingIam}>
-                        <h1 className={styles.tittle}>I'm Frontend developer</h1>
+                        <h1 className={styles.title}>I'm Frontend developer</h1>
                     </div>
                 </div>
                 <div className={styles.mainPhoto}>

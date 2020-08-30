@@ -9,7 +9,6 @@ class Skill extends React.Component {
                 <span className={styles.skillTitle}>{this.props.title}</span>
                 <span className={styles.skillDescription}>{this.props.description}</span>
             </div>
-
         );
     }
 }

@@ -1,21 +1,23 @@
 
 .skills {
-  background-color: #181819;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    background-color: #181819;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 100px 0px;
     position: relative;
 
 
 }
+
 .wrapper {
-   width: 80%;
-   height: 70%;
-  display: flex;
-  justify-content: center;
+    width: 80%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
     flex-direction: column;
- }
+}
+
 .icon {
     display: flex;
     justify-content: center;
@@ -25,7 +27,7 @@
     font-size: 16px;
     letter-spacing: 1px;
 
-   }
+}
 
 
 .skillTitle span {
@@ -42,6 +44,7 @@
     color: #fff;
     text-transform: capitalize;
 }
+
 .skillsWrapper {
     display: flex;
     justify-content: space-evenly;
@@ -52,37 +55,42 @@
 
 
 .icon {
-    background-image: url('../ProjectPicture/react.png');
+    background-image: url('../s8_assets/react.png');
     width: 120px;
     height: 120px;
 
 }
+
 .icon1 {
-    background-image: url(../ProjectPicture/HTML.png);
+    background-image: url(../s8_assets/HTML.png);
     width: 120px;
     height: 120px;
 }
+
 .icon2 {
-    background-image: url(../ProjectPicture/CSS.png);
+    background-image: url(../s8_assets/CSS.png);
     width: 120px;
     height: 120px;
 }
+
 .icon3 {
-    background-image: url(../ProjectPicture/TypeScr.svg);
+    background-image: url(../s8_assets/TypeScr.svg);
     width: 120px;
     height: 120px;
 }
 
 .icon4 {
-    background-image: url(../ProjectPicture/JS.png);
+    background-image: url(../s8_assets/JS.png);
     width: 120px;
     height: 120px;
 }
+
 .icon5 {
-    background-image: url(../ProjectPicture/react.png);
+    background-image: url(../s8_assets/react.png);
     width: 120px;
     height: 120px;
 }
+
 .paddings_one {
     display: flex;
     flex-direction: column;
@@ -91,19 +99,22 @@
     padding: 30px;
 }
 
-@media(max-width: 1249px) {
-   .skillsWrapper {
-       display: flex;
-       align-items: center;
-   }}
-@media(max-width: 1249px) {
-   .skillTitle {
-       display: flex;
-       flex-direction: column;
-       width: auto;
-}}
+@media (max-width: 1249px) {
+    .skillsWrapper {
+        display: flex;
+        align-items: center;
+    }
+}
 
-.moduleLine{
+@media (max-width: 1249px) {
+    .skillTitle {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+    }
+}
+
+.moduleLine {
     background: #60d9fa;
     width: 55px;
     height: 3px;

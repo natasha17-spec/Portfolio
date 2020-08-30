@@ -67,7 +67,7 @@
     justify-content: center;
 }
 
-.tittle {
+.title {
     width: 22ch;
     color: #5ec5e1;
     font-size: 23px;
@@ -104,14 +104,16 @@
     transition: 500ms;
     transition-timing-function: ease;
 }
+
 .mainPhoto:hover {
     transform: scale(1.1);
 
 }
+
 .mainPhoto div {
     height: 400px;
     width: 300px;
-    background-image: url("../../ProjectPicture/photo.jpg");
+    background-image: url("../s8_assets/photo.jpg");
 }
 
 .mainPhoto div:before {
@@ -170,6 +172,7 @@
         background: #5ec5e1;
     }
 }
+
 @media screen and (max-width: 400px) {
     .mainPhoto {
         display: flex;

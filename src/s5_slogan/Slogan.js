@@ -6,7 +6,6 @@ import {Flip} from "react-reveal";
 function Slogan() {
     return (
         <Flip top>
-
         <div className={styles.slogan}>
             <div className={styles.sloganContainer}>
                 <span className={styles.sloganTitle}>I Am Available For Freelancer</span>

@@ -1,35 +1,27 @@
 import React from 'react';
 import styles from './Skills.module.css';
-import Skill from "./Skill/Skill";
-import Fade from 'react-reveal/Fade';
+import Skill from "./Skill";
 
 
 class Skills extends React.Component {
     render = () => {
         return (
-            <Fade bottom>
             <div className={styles.skills} id='skills' >
                 <div className={styles.wrapper}>
                     <div className={styles.skillTitle}>
                         <span name="top"> My skills </span>
                         <div className={styles.moduleLine}>
-
                         </div>
                     </div>
-
                     <div className={styles.skillsWrapper}>
                         <div className={styles.paddings_one}>
                             <div className={styles.icon}></div>
                             <Skill title={this.props.tasks[0].title} />
                         </div>
-
-
                         <div className={styles.paddings_one}>
                             <div className={styles.icon1}></div>
                             <Skill title={this.props.tasks[1].title} />
                         </div>
-
-
                         <div className={styles.paddings_one}>
                             <div className={styles.icon2}></div>
                             <Skill title={this.props.tasks[2].title} />
@@ -48,10 +40,7 @@ class Skills extends React.Component {
                         </div>
                     </div>
                 </div>
-
             </div>
-            </Fade>
-
         );
     }
 }

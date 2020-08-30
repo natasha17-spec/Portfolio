@@ -4,28 +4,32 @@
     width: 80%;
 }
 
-.projects {
+.project {
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    flex-wrap: wrap;
-  /* width: 1500px;*/
+    align-items: center;
+    margin-bottom: 70px;
+    position: relative;
+    width: 550px;
 }
 
-.icon {
-    width: 600px;
-    height: 400px;
+.projectImg {
+    width: 500px;
+    height: 300px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 20px;
-    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-
+    background-repeat: no-repeat;
+    border: 2px solid #60d9fa;
+    border-radius: 8px;
 }
 
-.containerSpan {
+.container {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -39,16 +43,17 @@
     font-style: italic;
     align-items: center;
     text-transform: uppercase;
-    color: #252527;
+    color: #ffffff;
     font-size: 16px;
-    padding: 5% 7%;
-    border: none;
+    padding: 2% 1%;
+    border: 2px solid white;
     cursor: pointer;
     border-radius: 5px;
-    margin: 10px 0px 10px 0px;
     font-family: Josefin Sans, sans-serif;
     text-decoration: none;
-    text-shadow: 1px 1px 3px black, 0 0 2em #c1c1c3;
+    text-shadow: 3px 6px 3px black, 0 0 2em #c1c1c3;
+    position: relative;
+    background-color: #575758;
 }
 
 .title {
@@ -58,7 +63,6 @@
     font-family: Josefin Sans, sans-serif;
     font-size: 22px;
     text-transform: uppercase;
-
 }
 
 .description {
@@ -68,13 +72,12 @@
     font-size: 18px;
     margin: 10px;
     text-align: center;
-    width: 70%;
+    width: 450px;
     line-height: 1.4em;
     letter-spacing: 0.1em;
     word-wrap: inherit;
     border-top: 2px solid;
     padding-top: 7px;
-
 }
 
 .boxProject {
@@ -107,10 +110,14 @@
     margin: 30px auto;
 }
 
-@media (max-width: 1249px) {
-    .projectTitle {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
+.name {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
+.lookHref {
+    display: flex;
+    text-align: center;
+}
+
